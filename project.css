@@ -1,0 +1,108 @@
+body{
+    direction: rtl;
+    margin-top: 0px;
+    font-family: b titr;
+}
+#header{
+    background-color: gray;
+    height: 100px;
+    width: 100vw;
+    border-bottom: 5px black solid;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+    margin: 20px 20px 0px 20px;
+}
+#menucontent , #menu{
+    display: inline;
+    text-decoration: none;
+    margin-top: 0px;
+    
+}
+#menucontent{
+    margin: 0px 60px 0px 60px;
+    font-weight: bold;
+    color: black;
+}
+#darkbutton{
+    background-color: black;
+    color: white;
+}
+#welcome{
+    display: inline;
+    margin-right: 120px;
+    font-weight: bold;
+}
+#inforead{
+    margin-right: 100px;
+}
+#writerimg{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#writername{
+    display: inline;
+    font-weight: 900;
+}
+#firstimg{
+    width: 60vw;
+    height: 600px;
+    margin: 50px 150px 50px 200px;
+}
+#moghadame , #mil5{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#moghadamelist{
+    list-style: square;
+}
+#communication , #OS , #Review , #tosie{
+    text-decoration: none;
+    color: red; 
+}
+#joda{
+    border-bottom: 5px black dotted;
+}
+#jodapart{
+    border-bottom: 3px black dotted;
+    width: 60vw;
+    margin-right: 250px;
+}
+#mahimg{
+    width: 600px;
+    height: 400px;
+}
+#RedmiA5 , #E15 , #A07 , #A16 , #note14s{
+    display: inline;
+    font-weight: 600;
+    font-size: 100px;
+}
+#Good  , #Bad{
+    list-style: none;
+    display: inline-block;
+    font-size: large;
+    margin-left: 300px;
+}
+#GoodList::before {
+    content: "\2714 ";
+  color: green;
+  font-weight: bold;
+}
+#BadList::before{
+    content: "\274C ";
+  color: red;
+  font-weight: bold;
+}
+#buy{
+    display: block;
+    text-decoration: none;
+    color: red;
+    margin-top: 60px;
+    font-size: xx-large;
+    text-align: center;
+    border: 3px orange dashed;
+    background-color: black;
+}
+
