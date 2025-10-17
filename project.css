@@ -2,17 +2,32 @@ body{
     direction: rtl;
     margin-top: 0px;
     font-family: b titr;
+    background-color: black;
+    color: white;
 }
 #header{
     background-color: gray;
     height: 100px;
     width: 100vw;
-    border-bottom: 5px black solid;
+    border-bottom: 5px green solid;
 }
 #logo{
     height: 50px;
     width: 100px;
     margin: 20px 20px 0px 20px;
+}
+#logo:hover{
+    height: 60px;
+    width: 120px;
+}
+#sitename{
+    display: inline;
+    font-size: 30px;
+    color: purple;
+}
+#sitename:hover{
+    font-weight: bolder;
+    color: aqua;
 }
 #menucontent , #menu{
     display: inline;
@@ -95,14 +110,97 @@ body{
   color: red;
   font-weight: bold;
 }
-#buy{
-    display: block;
-    text-decoration: none;
-    color: red;
-    margin-top: 60px;
-    font-size: xx-large;
+#tosiebox{
+    display: inline-block;
+    border-top: 1px yellow solid;
+    border-bottom:1px yellow solid ;
+    font-weight: bolder;
+}
+#tosieimg{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#nazar , #othermaghale{
+    font-size: 20px;
+}
+#saierimg{
+    width: 23vw;
+    height: 200px;
+    margin-right: 20px;
+}
+#othertxt{
+    display: inline-block;
+    width: 24vw;
     text-align: center;
-    border: 3px orange dashed;
-    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+#end{
+    text-align: center;
+    width: 60vw;
+    margin-right: 260px;
+    border: 5px blue solid;
+    border-radius: 10px;
+}
+#kholase{
+    text-align: center;
+    font-size: 30px;
+}
+#menucontent:hover {
+   color: limegreen; 
+  text-shadow: 0 0 5px limegreen;
+  text-decoration: overline;
+}
+#mahimg:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+#buy {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 40px;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid orange;
+  background-color: #1c1c1c;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+#buy:hover {
+  background-color: orange;
+  color: black;
+  box-shadow: 0 0 15px orange;
 }
 
+#mahimg {
+  box-shadow: 0 0px 20px limegreen;
+}
+#RedmiA5, #E15, #A07, #A16, #note14s {
+  text-shadow: 5px 5px 3px aqua;
+}
+#kholasetable {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 30px ;
+  color: white;
+  margin-right: 150px;
+}
+#tablehead {
+  background: gray;
+  color: white;
+  padding: 10px;
+  text-shadow: 1px 1px 3px black;
+}
+#tabledata {
+  padding: 8px;
+  border: 1px solid #555;
+}
+#tablerow:hover {
+  background: #333;
+  box-shadow: inset 0 0 10px limegreen;
+}
