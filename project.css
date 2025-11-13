@@ -1,0 +1,430 @@
+body {
+    direction: rtl;
+    margin-top: 0px;
+    font-family: b titr;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    border-bottom: 5px green solid;
+    display: flex;
+    gap: 30px;
+}
+
+#logo {
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+#logo:hover {
+    height: 60px;
+    width: 120px;
+}
+
+#sitename {
+    display: inline;
+    font-size: 30px;
+    color: purple;
+}
+
+#sitename:hover {
+    font-weight: bolder;
+    color: aqua;
+}
+
+.menucontent,
+nav {
+    display: inline;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+}
+
+.menucontent {
+    font-weight: bold;
+    color: black;
+}
+
+#darkbutton {
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 20px;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+
+#welcome {
+    margin-right: 120px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+#inforead {
+    margin-right: 100px;
+}
+
+#writerimg {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#writername {
+    display: inline;
+    font-weight: 900;
+}
+
+#firstimg {
+    width: 50%;
+    height: 400px;
+    margin: 50px 100px 50px 200px;
+}
+
+.moghadame,
+.mil5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#moghadamelist {
+    list-style: square;
+}
+
+#communication,
+#OS,
+#Review,
+.tosie {
+    text-decoration: none;
+    color: red;
+}
+
+#joda {
+    border-bottom: 5px black dotted;
+}
+
+#jodapart {
+    border-bottom: 3px black dotted;
+    width: 60vw;
+    margin-right: 250px;
+}
+
+#mahimg {
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#RedmiA5,
+#E15,
+#A07,
+#A16,
+#note14s {
+    display: inline;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.Good,
+.Bad {
+    list-style: none;
+    display: inline-block;
+    font-size: large;
+    margin-left: 300px;
+}
+
+.GoodList::before {
+    content: "\2714 ";
+    color: green;
+    font-weight: bold;
+}
+
+.BadList::before {
+    content: "\274C ";
+    color: red;
+    font-weight: bold;
+}
+
+#tosiebox {
+    display: inline-block;
+    border-top: 1px yellow solid;
+    border-bottom: 1px yellow solid;
+    font-weight: bolder;
+}
+
+.tosieimg {
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+#othermaghale {
+    font-size: 20px;
+}
+
+.saierimg {
+    width: 23vw;
+    height: 200px;
+}
+
+.othertxt {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#end {
+    text-align: center;
+    width: 50vw;
+    border: 5px blue solid;
+    border-radius: 10px;
+}
+#enddiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#kholase {
+    text-align: center;
+    font-size: 30px;
+}
+
+.menucontent:hover {
+    color: limegreen;
+    text-shadow: 0 0 5px limegreen;
+    text-decoration: overline;
+}
+
+#mahimg:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.buy {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid orange;
+    background-color: #1c1c1c;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buy:hover {
+    background-color: orange;
+    color: black;
+    box-shadow: 0 0 15px orange;
+}
+
+#mahimg {
+    box-shadow: 0 0px 20px limegreen;
+}
+
+#RedmiA5,
+#E15,
+#A07,
+#A16,
+#note14s {
+    text-shadow: 2px 2px 3px aqua;
+}
+
+#kholasetable {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px;
+    color: white;
+    margin-right: 150px;
+}
+
+.tablehead {
+    background: gray;
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.tabledata {
+    padding: 8px;
+    border: 1px solid #555;
+}
+
+.tablerow:hover {
+    background: #333;
+    box-shadow: inset 0 0 10px limegreen;
+}
+
+#left {
+    width: 220px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-grow: 2;
+    padding-left: 200px;
+    padding-right: 20px;
+    background: #0e0e0e;
+}
+
+
+#left a {
+    display: block;
+}
+
+#left a:hover {
+    color: rgb(192, 104, 98);
+}
+
+#left img:hover {
+    width: 100px;
+    height: 50px;
+}
+
+#asideandmain {
+    margin-top: 120px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+#moghadamemain {
+    flex-grow: 4;
+    border-left: 2px rgb(156, 156, 156) solid;
+}
+
+#reviewspecial {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#reviewspecial:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(135deg, #8f94fb, #4e54c8);
+}
+
+#right {
+    width: 120px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.stickerright {
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+    margin-top: 2000px;
+    color: white;
+    transform: rotate(90deg);
+}
+
+.stickerright:hover {
+    font-size: 35px;
+    color: red;
+}
+
+.mahdiv {
+    margin: 5px;
+    border: 2px white solid;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+#RedmiA5div , #note14sdiv , #A16div , #A07div , #motoE15div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tosiediv{
+    display: flex;
+    align-items: center;
+}
+#linkimg{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.saierlinks{
+     text-decoration: none;
+    color: white;
+}
+#tel{
+    text-decoration: none;
+    color: white;
+}
+#tel:hover{
+    color: aquamarine;
+}
+#aboutusdiv{
+    text-align: center;
+    padding: 50px;
+}
+
+#abouth1{
+    color: limegreen;
+    text-shadow: 0 0 10px green;
+    margin-bottom: 30px;
+}
+
+.aboutp {
+    font-size: 23px;
+    color: white;
+    margin: 0px 20px;
+}
+
+#login{
+    border: 3px yellow solid;
+    width: 500px;
+    height: 300px;
+    margin: 40px 430px;
+}
+#loginbutton{
+    display: block;
+    margin: 30px 200px;
+    width: 80px;
+    height: 30px;
+    background-color: yellow;
+}
+#loginbutton:hover{
+    background-color: yellowgreen;
+}
+#username , #pass{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#inputusername , #inputpass{
+    margin-right: 100px;
+    width: 270px;
+    height: 23px;
+}
