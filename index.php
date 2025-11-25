@@ -2,11 +2,9 @@
 include("header.html");
 ?>
     <section id="asideandmain">
-        <aside id="right">
-            <a href="login.html" class="stickerright">💬کامنت</a>
-            <a href="login.html" class="stickerright">❤️(2k)لایک</a>
-            <a href="https://web.eitaa.com/" class="stickerright">🔗ارسال</a>
-        </aside>
+       <?php
+    include("asideright.html");
+       ?>
         <main id="moghadamemain">
             <h1 id="title">بهترین گوشی های موبایل بازار ایران [مهر ۱۴۰۴]</h1>
             <p id="inforead">راهنمای خرید موبایل --- 24 مهر 1404 --- مطالعه 30 دقیقه</p>
@@ -289,7 +287,7 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/68e0af9a5740fc156ea03941/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20565509%2F%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%85%D9%88%D8%AA%D9%88%D8%B1%D9%88%D9%84%D8%A7-%D9%85%D8%AF%D9%84-moto-e15-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-64-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-2-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=cb8d8922-a7c1-4e1d-b2d1-58bb114b2ce1&outOfStock=false&storeId=1&position=2">خرید
                     از دیجی کالا</a>
             </div>
-            <div iclassd="mahdiv">
+            <div class="mahdiv">
                 <div id="A07div">
                     <img id="mahimg" src="https://api2.zoomit.ir/media/68a969b4025cd65f413c3c70?w=1080&q=75"
                         alt="گلکسی A07 سامسونگ 4G">
@@ -470,9 +468,9 @@ include("header.html");
         include("asideleft.html");
         ?>
     </section>
-
+<p id="kholase">خلاصه : </p>
     <section id="tablespace">
-        <p id="kholase">خلاصه : </p>
+        
         <table id="kholasetable">
             <th class="tablehead">رنج قیمت</th>
             <th class="tablehead">شیائومی</th>

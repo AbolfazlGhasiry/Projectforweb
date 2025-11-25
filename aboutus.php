@@ -1,8 +1,8 @@
 <?php
 include("header.html");
 ?>
-            <section id="asideandmain">
-        <main  style = " border-left: 3px red solid;  width: 80%;
+            <section id="asideandmainabout">
+        <main  style = " border-left: 3px red solid; 
     height: 100vh;
     border-left: 3px red solid;">
             <div id="aboutusdiv">

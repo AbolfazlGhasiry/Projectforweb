@@ -1,8 +1,8 @@
 <?php
 include("header.html");
 ?> 
-            <section id="asideandmain">
-        <main  style = " border-left: 3px red solid;  width: 80%;
+            <section id="asideandmainlog">
+        <main  style = " border-left: 3px red solid;
     height: 100vh;">
             <div id="login">
                 <p id="username">نام کاربری : </p>
