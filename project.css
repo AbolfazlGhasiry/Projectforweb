@@ -21,16 +21,10 @@ header {
 
 
 #logo {
-    height: 50px;
-    width: 100px;
+    height: 70px;
+    width: 150px;
     margin-top: 20px;
      max-width: 100%;            
-    height: auto;
-}
-
-#logo:hover {
-    height: 60px;
-    width: 120px;
 }
 
 #sitename {
@@ -56,10 +50,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     
 }
-img, #firstimg, #mahimg, .tosieimg, .saierimg {
+img,  #mahimg, .tosieimg, .saierimg {
     max-width: 100%;
     height: auto;
     display: block;
@@ -101,8 +95,8 @@ img, #firstimg, #mahimg, .tosieimg, .saierimg {
 }
 
 #firstimg {
-    width: 50%;
-    height: 400px;
+    width: 60%;
+    height: 300px;
     margin: 50px 100px 50px 200px;
 }
 
@@ -145,13 +139,38 @@ img, #firstimg, #mahimg, .tosieimg, .saierimg {
 #E15,
 #A07,
 #A16,
-#note14s {
+#note14s ,
+#CMF1 , 
+#Note14pro ,
+#A26,
+#Realme12plus,
+#Pocox7,
+#A36,
+#Pocox7pro,
+#Honor200,
+#s24fe, 
+#x14tpro, 
+#s25fe,
+#Honor400pro,
+#xiaomi15,
+#iphone16,
+#xiaomo15ultra,
+#S25ultra,
+#oneplus15{
     display: inline-block;
     font-weight: 600;
     font-size: clamp(20px, 5vw, 50px); 
     
 }
-
+#RedmiA5div , #note14sdiv , #A16div , #A07div ,
+ #motoE15div , #CMF1div , #Note14prodiv , #A26div ,
+ #realme12plusdiv, #Pocox7div , #A36div, #Pocox7prodiv, #Honor200div,
+ #s24fediv, #x14tprodiv, #s25fediv , #Honor400prodiv , #xiaomi15div , #iphone16div,
+ #xiaomo15ultradiv, #S25ultradiv , #oneplus15div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .Good,
 .Bad {
@@ -214,6 +233,7 @@ img, #firstimg, #mahimg, .tosieimg, .saierimg {
 #enddiv{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
 }
 
 #kholase {
@@ -446,11 +466,7 @@ nav {
     border-collapse: collapse;
 }
 
-#RedmiA5div , #note14sdiv , #A16div , #A07div , #motoE15div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .tosiediv{
     display: flex;
     align-items: center;
@@ -467,6 +483,7 @@ nav {
 #tel{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 #tel:hover{
     color: aquamarine;
@@ -575,4 +592,118 @@ nav {
     grid-template-columns: 7fr 1fr ;   
     gap: 20px;  
                               
+}
+body {
+  font-size: 16px; /* حالت پیش‌فرض */
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* وقتی صفحه کوچک‌تر شد */
+  }
+  #right{
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* برای موبایل */
+  }
+}
+#saierdiv {
+    flex: 1 1 calc(25% - 20px); /* چهار تا در یک ردیف */
+    max-width: calc(25% - 20px);
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+#saierdiv:hover {
+    transform: translateY(-5px);
+}
+ #tosiean:hover{
+     transform: translateY(-5px);
+ }
+/* لینک */
+.saierlinks {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* تصویر */
+.saierimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 3px solid #6c63ff;
+}
+
+/* متن */
+.othertxt {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px;
+    background: linear-gradient(90deg, #6c63ff, #00c9ff);
+    color: #fff;
+}
+
+/* ریسپانسیو برای تبلت */
+@media (max-width: 992px) {
+    #saierdiv {
+        flex: 1 1 calc(50% - 20px); /* دو تا در یک ردیف */
+        max-width: calc(50% - 20px);
+    }
+}
+
+/* ریسپانسیو برای موبایل */
+@media (max-width: 576px) {
+    #saierdiv {
+        flex: 1 1 100%; /* یکی در هر ردیف */
+        max-width: 100%;
+    }
+    .othertxt {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #eee;
+}
+
+.video-box h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #fff;
 }

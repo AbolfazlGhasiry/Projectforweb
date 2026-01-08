@@ -10,7 +10,7 @@ include("header.html");
             <p id="inforead">راهنمای خرید موبایل --- 24 مهر 1404 --- مطالعه 30 دقیقه</p>
             <img src="writerimg.jpeg" alt="تصویر نویسنده" id="writerimg">
             <p id="writername">Abolfazl Ghasiry</p>
-            <img src="firstimg.png" alt="تصویر اولیه" id="firstimg">
+            <img src="photo_2026-01-08_12-06-55.jpg" alt="تصویر اولیه" id="firstimg">
             <p class="moghadame">در مقاله‌ی پیش‌ رو با در نظر گرفتن پارامترهای تأثیرگذار بر تجربه‌ی کاربر، بهترین
                 گوشی‌های
                 بازار
@@ -194,7 +194,7 @@ include("header.html");
                     سریع
                     ۱۸ واتی
                     و وجود شارژر سازگار درون جعبه، از دیگر نکات مثبت این گوشی به‌شمار می‌روند.</p>
-                <a href="***" id="reviewspecial">
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+%d8%b1%d8%af%d9%85%db%8c+a5&&mid=E59A063B22C3D95E064EE59A063B22C3D95E064E&FORM=VRDGAR" id="reviewspecial">
                     <span class="icon">📱</span>
                     بررسی تخصصی این گوشی
                 </a>
@@ -260,7 +260,7 @@ include("header.html");
                     سبک‌کردن ظرفیت اشغال‌شده رم، نسخه‌ی سبک‌تر اندروید ۱۴ موسوم به Android Go را روی گوشی نصب کرده
                     است.
                 </p>
-                <a href="***" id="reviewspecial">
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+%d9%85%d9%88%d8%aa%d9%88%d8%b1%d9%88%d9%84%d8%a7+E15&&mid=D3B3122C2C9782498740D3B3122C2C9782498740&FORM=VRDGAR" id="reviewspecial">
                     <span class="icon">📱</span>
                     بررسی تخصصی این گوشی
                 </a>
@@ -323,7 +323,7 @@ include("header.html");
                     است که به دنبال یک گوشی ساده و کاربردی هستند، اما در زمینه قدرت پردازشی و کیفیت دوربین
                     محدودیت‌هایی
                     دارد.</p>
-                <a href="***" id="reviewspecial">
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+A07&&mid=3708D1E423F01791E6983708D1E423F01791E698&FORM=VRDGAR" id="reviewspecial">
                     <span class="icon">📱</span>
                     بررسی تخصصی این گوشی
                 </a>
@@ -381,7 +381,7 @@ include("header.html");
                     نرم‌افزاری
                     طولانی
                     هستند.</p>
-                <a href="***" id="reviewspecial">
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+A16&&mid=8440259364A1D837C7E38440259364A1D837C7E3&FORM=VRDGAR" id="reviewspecial">
                     <span class="icon">📱</span>
                     بررسی تخصصی این گوشی
                 </a>
@@ -438,7 +438,7 @@ include("header.html");
                     دوربین
                     قدرتمند و
                     باتری خوب در یک گوشی اقتصادی هستند.</p>
-                <a href="***" id="reviewspecial">
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+14s&&mid=50E343F2CBE7BAE95A8750E343F2CBE7BAE95A87&FORM=VRDGAR" id="reviewspecial">
                     <span class="icon">📱</span>
                     بررسی تخصصی این گوشی
                 </a>
@@ -461,6 +461,593 @@ include("header.html");
                 </div>
                 <a class="buy"
                     href="https://www.digikala.com/product/dkp-19040705/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-note-14s-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best20mil">بهترین گوشی تا 20 میلیون تومان</h2>
+                <div id="CMF1div">
+                    <img id="mahimg" src="https://api2.zoomit.ir/media/668bb696772792639dec9a14?w=1080&q=75"
+                        alt="CMF 1">
+                    <p id="CMF1">** CMF 1</p>
+                </div>
+                <p class="mil5">سی‌ام‌اف برندی نوپا در عرصه‌ی تولید لوازم جانبی و گوشی‌های هوشمند است که در سال ۲۰۲۳ تاسیس شد. این برند که زیرمجموعه‌ی شرکت ناتینگ محسوب می‌شود نخستین گوشی هوشمندش یعنی CMF Phone 1 را چندی پیش روانه بازار کرد. تفاوت اصلی این مدل با گوشی‌های ناتینگ، قیمت به‌صرفه‌تر و طراحی انعطاف‌پذیر است. یعنی امکان شخصی‌سازی بدنه با استفاده‌از جایگاه‌ها و پیج‌هایی که تعبیه‌شده، برای کاربر فراهم شده است.</p>
+                <p class="mil5">به‌این معنی‌که کاربر می‌تواند قاب این گوشی را تعویض کند یا قطعاتی مانند پایه نگه‌دارنده به‌آن متصل کند. خود گوشی از نظر سخت‌افزاری مشخصات خوبی را با توجه‌به جهش قیمت ارز و گران‌شدن بسیاری از گوشی‌های اقتصادی ارائه می‌دهد و سرانجام ارزش خرید پیدا کرده است. این گوشی از تراشه Dimensity 7300 قدرت می‌گیرد که عملکرد پردازشی و گرافیکی سریع‌تری از Exynos 1380 به‌کاررفته در گلکسی A35 به‌نمایش می‌گذارد.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+CMF+1&&mid=4D2050E8345DE57F37024D2050E8345DE57F3702&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> نمایشگر OLED درخشان و پروضوح</li>
+                        <li class="GoodList"> دوربین ساده اما کارراه‌‌انداز</li>
+                        <li class="GoodList"> طراحی زیبا و منحصر‌به‌فرد</li>
+                        <li class="GoodList"> نرم‌افزار مینیمال و روان</li>
+                        <li class="GoodList"> شارژدهی طولانی</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> پشتیبانی نرم‌افزاری ۲ساله</li>
+                        <li class="BadList"> تراشه‌‌ی ضعیف‌تر از رقبا</li>
+                        <li class="BadList"> کیفیت ساخت پایین</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-16109073/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D8%A7%D8%AA%DB%8C%D9%86%DA%AF-%D9%85%D8%AF%D9%84-cmf-phone-1-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="Note14prodiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/xiaomi-redmi-note-14-pro-4g-colors-678253458b380d60e9ffde0c"
+                        alt="Note 14 pro">
+                    <p id="Note14pro">** نوت 14 پرو</p>
+                </div>
+                <p class="mil5"> ردمی نوت ۱۴ پرو شیائومی 4G در دی ماه ۱۴۰۳ با هدف ارائه تعادلی میان امکانات و قیمت در بازار میان‌رده‌ها عرضه شد. این دستگاه بر نقاط قوتی کلیدی مانند کیفیت ساخت بالا، شامل محافظ گوریلا گلس ویکتوس ۲ و گواهی IP64، اتکا دارد. همچنین، نمایشگر AMOLED آن با روشنایی بسیار بالا و عملکرد عالی سنسور اصلی ۲۰۰ مگاپیکسلی در نور کم نیز از مزایای برجسته آن محسوب می‌شوند. در کنار این موارد، مدیریت حرارتی کارآمد و حفظ جک ۳/۵ میلی‌متری صدا را نیز نباید فراموش کرد.</p>
+                <p class="mil5"> با این وجود، پاشنه آشیل نسخه 4G ردمی نوت ۱۴ پرو، تراشه Helio G100 Ultra است که عملکرد پردازشی محدودی را با توجه به جایگاه این محصول در لیست قیمت گوشی شیائومی ارائه می‌دهد و در واقع، نسخه‌ای بازطراحی‌شده از G99 محسوب می‌شود. این ضعف، در کنار محدودیت فیلمبرداری به 1080p، سنسور اولتراواید ناکارآمد و پسرفت فنی در سرعت شارژ (۴۵ وات در مقابل ۶۷ وات نسل قبل)، ارزش رقابتی نوت ۱۴ پرو را در برابر رقبای مجهز به سخت‌افزار قوی‌تر و اتصال 5G به طور جدی تضعیف می‌کند.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+14+pro&&mid=4C49004E61B01E4F9B0D4C49004E61B01E4F9B0D&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> کیفیت ساخت عالی با گواهی IP64</li>
+                        <li class="GoodList"> شیشه محافظ گوریلا گلس ویکتوس ۲</li>
+                        <li class="GoodList"> نمایشگر AMOLED عالی، با وضوح بالا و ۱۲۰ هرتز</li>
+                        <li class="GoodList"> بلندگوهای استریوی بسیار خوب</li>
+                        <li class="GoodList"> کیفیت عالی عکس و فیلم در نور کم</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> عدم پشتیبانی از ویدئو HDR در نمایشگر</li>
+                        <li class="BadList"> شارژ کندتر از مدل قبلی</li>
+                        <li class="BadList"> عملکرد نسبتاً متوسط، حتی با توجه به قیمت</li>
+                        <li class="BadList"> فیلمبرداری محدود به 1080p</li>
+                        <li class="BadList">عرضه نشدن با جدیدترین اندروید ۱۵ و هایپر او‌اس ۲</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add68c7/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20935588%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=7&referrer=zoobin">خرید
+                    از دیجی کالا</a>
+            </div>
+             <div class="mahdiv">
+                <h2 id="best25mil">بهترین گوشی تا 25 میلیون تومان</h2>
+                <div id="A26div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/67c4432b07196c81a71d4a33?w=1080&q=75"
+                        alt="A26">
+                    <p id="A26">** A26</p>
+                </div>
+                <p class="mil5"> سامسونگ گلکسی A26 با قاب شیشه‌ای گوریلا گلس ویکتوس پلاس و گواهی IP67 حالا گوشی اقتصادی ارزشمندتری شده است و به‌نوعی می‌توان آن‌را ارزان‌ترین گوشی سامسونگ با این گواهی و مقاوم در برابر آب تا عمق یک متری به‌مدت ۳۰ دقیقه به‌حساب آورد. به‌نسبت نسل قبل نیز این گوشی خوش‌ساخت‌تر شده و حس باکیفیت‌تری به‌کاربر منتقل می‌کند. کاهش ضخامت دستگاه را نیز می‌توان یکی از تغییرات مثبت در جهت بهترشدن تجربه‌ی در دست‌گرفتن گوشی تلقی کرد.</p>
+                <p class="mil5"> اندازه دستگاه نیز از ۶٫۵ به ۶٫۷ اینچ رسیده که خوشبختانه وزن گوشی از این افزایش اندازه تقریبا محفوظ مانده و تغییر محسوسی نداشته است. تراشه‌ی گوشی نیز به Exynos 1380 یعنی همان تراشه‌ی به‌کار رفته در Samsung A54 ارتقا پیدا کرده که طبق بررسی گلکسی A26 می‌تواند خاطر شما را از بابت اجرای بسیار روان برنامه‌ها، چندوظیفگی و حتی اجرای بازی‌های پرطرفدار آسوده کند. در مقابل این تغییرات مثبت، پسرفت‌ها و نقاط ضعفی به‌چشم می‌خورند؛ برای مثال اسپیکر استریو حذف شده و نمایشگر هم به‌خاطر بیشینه‌ روشنایی محدود برای کارکردن در محیط بیرون و زیر نور شدید شاید به‌اندازه‌ی رقبا خوانا نباشد.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+a26&&mid=F6E3F78639841D63E6FDF6E3F78639841D63E6FD&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList">بهبود کیفیت ساخت و استفاده از شیشه +Gorilla Glass Victus در قاب پشت</li>
+                        <li class="GoodList"> عملکرد رضایت‌بخش در استفاده روزمره</li>
+                        <li class="GoodList"> عملکرد بسیار خوب دوربین واید و اولتراواید</li>
+                        <li class="GoodList"> ۶ سال آپدیت سیستم‌عامل</li>
+                        <li class="GoodList"> گواهی IP67 برای مقاومت در برابر آب</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> حذف‌شدن اسپیکر استریو</li>
+                        <li class="BadList"> روشنایی پایین نمایشگر</li>
+                        <li class="BadList"> حذف جک هدفون</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add68df/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-19222844%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=3&referrer=zoomit">خرید
+                    از دیجی کالا</a>
+            </div>
+             <div class="mahdiv">
+                <div id="Note14prodiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/xiaomi-redmi-note-14-pro-4g-colors-678253458b380d60e9ffde0c"
+                        alt="Note 14 pro">
+                    <p id="Note14pro">** نوت 14 پرو</p>
+                </div>
+                <p class="mil5"> ردمی نوت ۱۴ پرو شیائومی 4G در دی ماه ۱۴۰۳ با هدف ارائه تعادلی میان امکانات و قیمت در بازار میان‌رده‌ها عرضه شد. این دستگاه بر نقاط قوتی کلیدی مانند کیفیت ساخت بالا، شامل محافظ گوریلا گلس ویکتوس ۲ و گواهی IP64، اتکا دارد. همچنین، نمایشگر AMOLED آن با روشنایی بسیار بالا و عملکرد عالی سنسور اصلی ۲۰۰ مگاپیکسلی در نور کم نیز از مزایای برجسته آن محسوب می‌شوند. در کنار این موارد، مدیریت حرارتی کارآمد و حفظ جک ۳/۵ میلی‌متری صدا را نیز نباید فراموش کرد.</p>
+                <p class="mil5"> با این وجود، پاشنه آشیل نسخه 4G ردمی نوت ۱۴ پرو، تراشه Helio G100 Ultra است که عملکرد پردازشی محدودی را با توجه به جایگاه این محصول در لیست قیمت گوشی شیائومی ارائه می‌دهد و در واقع، نسخه‌ای بازطراحی‌شده از G99 محسوب می‌شود. این ضعف، در کنار محدودیت فیلمبرداری به 1080p، سنسور اولتراواید ناکارآمد و پسرفت فنی در سرعت شارژ (۴۵ وات در مقابل ۶۷ وات نسل قبل)، ارزش رقابتی نوت ۱۴ پرو را در برابر رقبای مجهز به سخت‌افزار قوی‌تر و اتصال 5G به طور جدی تضعیف می‌کند. میتوان با 25 میلیون تومان نسخه ی بالاتری از حافظه و رم را انتخاب نمود.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+14+pro&&mid=F91E8BCB996A3F57A037F91E8BCB996A3F57A037&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> کیفیت ساخت عالی با گواهی IP64</li>
+                        <li class="GoodList"> شیشه محافظ گوریلا گلس ویکتوس ۲</li>
+                        <li class="GoodList"> نمایشگر AMOLED عالی، با وضوح بالا و ۱۲۰ هرتز</li>
+                        <li class="GoodList"> بلندگوهای استریوی بسیار خوب</li>
+                        <li class="GoodList"> کیفیت عالی عکس و فیلم در نور کم</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> عدم پشتیبانی از ویدئو HDR در نمایشگر</li>
+                        <li class="BadList"> شارژ کندتر از مدل قبلی</li>
+                        <li class="BadList"> عملکرد نسبتاً متوسط، حتی با توجه به قیمت</li>
+                        <li class="BadList"> فیلمبرداری محدود به 1080p</li>
+                        <li class="BadList">عرضه نشدن با جدیدترین اندروید ۱۵ و هایپر او‌اس ۲</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add68c7/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20935588%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=7&referrer=zoobin">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="realme12plusdiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/65e6a6a4b5484d0cca6f86af?w=640&q=80"
+                        alt="Realme 12 plus">
+                    <p id="Realme12plus">** ریلمی 12 پلاس</p>
+                </div>
+                <p class="mil5"> ریلمی ۱۲ پلاس، میان‌رده تازه‌واردی است که در نوع خودش امکانات قابل قبولی با توجه‌به برچسب قیمتی‌اش ارائه می‌دهد. اول‌از همه این گوشی صفحه‌نمایش OLED با نرخ نوسازی ۱۲۰ هرتز، پشتیبانی از استاندارد +HDR10، روشنایی ۲۰۰۰ نیتی و حاشیه‌های باریک دارد و باعث می‌شود تا کاربر حس دردست گرفتن یک گوشی ارزان‌قیمت را نداشته باشد. پشت گوشی نیز با قابی از جنس چرم مصنوعی محافظت می‌شود. وزن نیز با توجه‌به ابعاد نسبتا سبک است.</p>
+                <p class="mil5"> قدرت ریلمی ۱۲ پلاس از سوی تراشه Dimensity 7050 مدیاتک تامین می‌شود که نه‌به‌اندازه گوشی‌های اقتصادی ضعیف است و نه به‌اندازه گوشی‌های میان‌رده‌ی گران‌قیمت‌تر از خودش سریع‌تر؛ درواقع چیزی مابین آن‌هاست، برای استفاده روزمره کاملا پاسخگو بوده و با رابط کاربری Realme UI تجربه‌ای روان و نزدیک به Oxygen OS وان‌پلاس را ارائه می‌دهد. دوربین‌های این گوشی را مجموعه‌ای از سه دوربین واید ۵۰، اولتراواید ۸ و ماکروی ۲ مگاپیکسلی تشکیل می‌دهد که عملکرد نسبتا معمولی در عکاسی روز از خود نشان می‌دهند.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+realme+12+plus&&mid=D818C594A2CD372BB67DD818C594A2CD372BB67D&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList">طراحی خاص با پشت چرمی و ماژول دوربین لوکس</li>
+                        <li class="GoodList">نمایشگر AMOLED بزرگ 6.67 اینچی با کیفیت خوب</li>
+                        <li class="GoodList"> دوربین اصلی 50 مگاپیکسل Sony LYT-600 با OIS برای عکس‌های بهتر در نور کم</li>
+                        <li class="GoodList">باتری  5000mAh با شارژ سریع 67 وات</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> فریم پلاستیکی که راحت خط و خش می‌گیرد</li>
+                        <li class="BadList"> رقبای هم‌قیمت مثل Poco X6 نمایشگر و اسپیکر بهتر دارند</li>
+                        <li class="BadList"> عملکرد چیپست Dimensity 7050 متوسط است، نه خیلی قدرتمند</li>
+                        <li class="BadList"> حاشیه پایینی صفحه (چین ضخیم) کمی زیاد است</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add67ca/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20311180%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=6c3d9af9-f110-4247-922e-bddca17da064&outOfStock=false&storeId=1&position=5&referrer=zoobin">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best30mil">بهترین گوشی تا 30 میلیون تومان</h2>
+                <div id="Pocox7div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/677fd5966e3d4b67935364ed?w=640&q=80"
+                        alt="Poco x7">
+                    <p id="Pocox7">** Poco x7</p>
+                </div>
+                <p class="mil5"> پوکو X7 دقیقا همان ردمی نوت ۱۴ پرو نسخه‌ی 5G است، با این تفاوت که از دوربین ۵۰ مگاپیکسلی به‌جای ۲۰۰ مگاپیکسلی استفاده می‌کند که این امر را می‌توان به‌پای پوکو بودن و دوربین‌محور نبودن این سری نوشت. در تمامی مشخصات ظاهری و فنی این دو محصول یکی هستند و درحال‌حاضر اختلاف قیمتی ۵ میلیون تومانی دارند؛ از جمله این‌که این گوشی گواهی IP68 برای مقاومت در برابر آب تا عمق ۱٫۵ متری و محافظت نمایشگر با Gorilla Glass Victus 2 را دارد.</p>
+                <p class="mil5"> این گوشی از معدود محصولات سری پوکو مجهز به نمایشگر با لبه‌های خمیده به‌حساب می‌آید. نمایشگری ۱۲ بیتی که با وضوح 1.5K، نرخ نوسازی ۱۲۰ هرتز و روشنایی ۲۰۰۰ نیتی طبق بررسی‌های زومیت، تجربه‌ی بصری را یک پله نسبت‌به گوشی‌های مشابه دیگر ارتقا داده است. اگرچه ممکن است دردسرهای نصب محافظ صفحه برای چنین نمایشگری را به‌دنبال داشته باشد. قلب تپنده این گوشی را Dimensity 7300 تشکیل می‌دهد که طبق تجریبات ما، پاسخگویی خوبی در اجرای روان رابط کاربری و اپلیکیشن‌ها از خود نشان می‌دهد اما شاید چندان برای اجرای بازی‌های سنگین مناسب نباشد.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+poco+x7+%d8%b9%d8%a7%d8%af%db%8c&&mid=52A73DB38093D2E5311A52A73DB38093D2E5311A&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> ضدآب IP68، مقاومت بهبود یافته در برابر سقوط</li>
+                        <li class="GoodList"> مدل چرم سازگار با محیط زیست با طراحی برجسته</li>
+                        <li class="GoodList"> نمایشگر AMOLED عالی با وضوح بالا و دالبی ویژن</li>
+                        <li class="GoodList"> باتری با چگالی بالا و عملکرد بهبود یافته در دماهای زیر صفر</li>
+                        <li class="GoodList"> دوربین‌های قابل اعتماد در روز و شب</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> شارژ کندتر از X6</li>
+                        <li class="BadList"> عمر باتری زیر حد متوسط برای مرور وب</li>
+                        <li class="BadList"> عرضه نشدن با اندروید ۱۵ و HyperOS 2 (برخلاف X7 پرو)</li>
+                        <li class="BadList"> لرزش‌گیر ویدئو هنگام راه رفتن چندان خوب نیست</li>
+                        <li class="BadList"> سنسور مجاورت مجازی</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6901/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-18983821%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=6c3d9af9-f110-4247-922e-bddca17da064&outOfStock=false&storeId=1&position=16&referrer=zoobin">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="A36div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/67c440ae07196c81a71d49da?w=1080&q=75"
+                        alt="A36">
+                    <p id="A36">** A36</p>
+                </div>
+                <p class="mil5"> عرضه گوشی A36 در اسفند ۱۴۰۳ دوباره نشان داد که سامسونگ تنها روی بهبود تجربه کاربری بلندمدت دستگاه‌های خود تمرکز دارد که رسیدن به آن با چنین سخت‌افزارهای ضعیفی در حاله‌ای از ابهام است. A36 سامسونگ با اندکی پیشرفت به روشنایی ۱۲۰۰ نیت در پنل خود می‌رسد و استفاده از محافظ گوریلا گلس ویکتوس پلاس و ارائه پشتیبانی نرم‌افزاری کم‌نظیر ۶ ساله نیز گامی رو‌به‌جلو اما بسیار محدود نسبت به نسل پیشین به‌حساب می‌آید. همچنین جایگزینی تراشه اگزینوس با اسنپدراگون ۶ نسل ۳، اگرچه انقلابی نیست، پایداری حرارتی و گرافیکی بهتری را به ارمغان آورده است.</p>
+                <p class="mil5"> با این‌ حال در روی دیگر سکه، گلکسی A36 در نبرد سخت‌افزاری با رقبای چینی مانند پوکو X7 پرو، به‌دلیل استفاده از استاندارد قدیمی حافظه UFS 2.2 و پردازنده مرکزی فوق‌العاده ضعیف‌تر عقب می‌ماند. این محدودیت‌های فنی در کنار قیمت گوشی سامسونگ A36 که آن را در خطر هم‌پوشانی با مدل قدرتمندتر گلکسی A56 قرار می‌دهد، باعث شده است تا این محصول علی‌رغم نقاط قوتش، انتخابی ایده‌آل برای کاربران با اولویت گیمینگ یا سرعت پردازش بالا نباشد.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+a36&&mid=9F3AEBC4B9D9A7F53C809F3AEBC4B9D9A7F53C80&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> بدنه‌ی خوش‌ساخت و باکیفیت</li>
+                        <li class="GoodList"> ۶ سال آپدیت سیستم‌عامل</li>
+                        <li class="GoodList"> نمایشگر روشن و دقیق</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> تراشه‌ی بسیار ضعیف‌تر از رقبای هم‌قیمت</li>
+                        <li class="BadList"> بدون پیشرفت عملکردی محسوس</li>
+                        <li class="BadList"> برچسب قیمتی نامعقول</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-18577783/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a36-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best40mil">بهترین گوشی تا 40 میلیون تومان</h2>
+                <div id="Pocox7prodiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/677fdc736e3d4b6793536559?w=1080&q=75"
+                        alt="Poco x7 pro">
+                    <p id="Pocox7pro">** Poco x7 pro</p>
+                </div>
+                <p class="mil5"> پوکو X7 پرو Xiaomi، با ارتقا به‌پردازنده‌ی Dimensity 8400-Ultra آمده است تا دوباره به هر گوشی میان‌رده و حتی قاتل پرچمدار پاسخی کوبنده دهد. اگرچه پیشرفت‌های نسل قبل یعنی پوکو X6 پرو به‌اندازه‌ای بود که این گوشی را به‌کابوس بسیاری از رقبا تبدیل کرده بود؛ اما حالا افزون‌بر تراشه‌ای قدرتمندتر، به گواهی IP68 برای مقاومت در برابر آب تا عمق ۱٫۵ متری و باتری پرظرفیت‌تر ۶۰۰۰ میلی‌آمپرساعتی از نوع سیلیکون-کربن که جدیدترین فناوری باتری به‌حساب می‌آید، مجهز شده است تا هر گوشی دیگری فکر رقابت با X7 پرو را از سر خود بیرون کند. به‌لطف باتری حجیم، این گوشی در استفاده‌های روزمره بیش از ۱۲ ساعت شارژدهی دارد. گرچه از این نظر عملکرد درخشانی محسوب نمی‌شود، اما در مقایسه با نسل قبل و سایر مدل‌های شیائومی، در وضعیت بهتری به‌سر می‌برد.</p>
+                <p class="mil5"> تراشه‌ی این گوشی برای اجرای بازی‌های سنگین باز هم بهینه شده است و اکنون می‌تواند وضوح بازی‌ها را آپ‌اسکیل کند تا تجربه‌ی گیم‌پلی باکیفیت‌تری را ارائه دهد، ضمن این‌که عملکرد گیمینگ این گوشی همچنان مثل قبل پایدار و روان است. نمایشگر ۶٫۶۷ اینچی OLED این گوشی همان پنل ۱۲ بیتی با وضوح 1.5K دارد که روشنایی آن طبق اندازه‌گیری زومیت به ۲۸۵۰ نیت رسیده و دقت نمایش رنگ‌ها هم بهتر شده است. خود نمایشگر حالا با گوریلا گلس ویکتوس 7i محافظت می‌شود که تا دوبرابر مقاوم‌تر است و افزون‌براین‌که حساسیت و نرخ پاسخگویی لمسی آن هنگام بازی بیشتر شده است، با دست خیس می‌توان با گوشی کار کرد.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+poco+x7+%d8%b9%d8%a7%d8%af%db%8c&&mid=BAA057F07330712A441CBAA057F07330712A441C&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> تراشه قدرتمند و پایدار</li>
+                        <li class="GoodList"> عملکرد قابل تحسین در بازی‌ها</li>
+                        <li class="GoodList"> صفحه‌نمایش درخشان با حساسیت و پاسخگویی بالا</li>
+                        <li class="GoodList">گواهی IP68 برای مقاومت در برابر آب</li>
+                        <li class="GoodList"> باتری سیلیکون-کربن ۶۰۰۰ میلی‌آمپری با طول عمر بالاتر</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList">دوربین اولتراواید و سلفی ناکارآمد و دقیق‌نبودن رنگ عکس‌ها</li>
+                        <li class="BadList"> بددست شدن گوشی نسبت‌به نسل قبل</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6902/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-17986248%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=2&referrer=zoomit">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="Honor200div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/6654af294b10d5a6894b7e8d?w=1080&q=75"
+                        alt="Honor 200">
+                    <p id="Honor200">** Honor 200</p>
+                </div>
+                <p class="mil5"> گوشی Honor 200 به نمایشگری ۶٫۷ اینچی از نوع OLED با نرخ نوسازی ۱۲۰ هرتز مجهز است که کیفیت بالایی در نمایش محتوا ارائه می‌دهد. پردازنده‌ی این گوشی Snapdragon 7 Gen 3 است که با لیتوگرافی ۴ نانومتری ساخته شده و در کنار ۸ یا ۱۲ گیگابایت رم، عملکرد مناسبی در اجرای برنامه‌ها و بازی‌ها دارد. باتری ۵۲۰۰ میلی‌آمپرساعتی دستگاه نیز از شارژ سریع ۱۰۰ واتی پشتیبانی می‌کند که در مدت کوتاهی کاملا شارژ می‌شود.</p>
+                <p class="mil5"> بخش دوربین Honor 200 نقطه‌ی قوت اصلی آن است؛ دوربین اصلی ۵۰ مگاپیکسلی با حسگر بزرگ 1/1.56 اینچ، لرزشگیر اپتیکال (OIS) و دیافراگم f/1.95 تصاویر شفافی در محیط‌های نوری مختلف ثبت می‌کند. دوربین ۵۰ مگاپیکسلی تله‌فوتو با بزرگنمایی اپتیکال ۲٫۵ برابری و OIS به ثبت پرتره‌های دقیق و زوم باکیفیت کمک زیادی می‌کند. دوربین ۱۲ مگاپیکسلی فوق‌عریض نیز با قابلیت فوکوس خودکار، برای عکاسی در محیط‌های بزرگ، گزینه‌ی خوبی به‌نظر می‌رسد. همچنین دوربین سلفی ۵۰ مگاپیکسلی کیفیت بسیار خوبی برای عکس‌های سلفی و تماس‌های ویدیویی فراهم می‌کند.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+honor+200&&mid=0E1D3B32EA752022B4BB0E1D3B32EA752022B4BB&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> طراحی مشابه مدل پرو و ظاهر جذاب</li>
+                        <li class="GoodList"> نمایشگر اولد ۱۲۰ هرتز با وضوح FHD+</li>
+                        <li class="GoodList"> دوربین‌ تله‌فوتو با زوم ۲ برابری</li>
+                        <li class="GoodList"> باتری ۵۲۰۰ میلی‌آمپر ساعتی با شارژ سیمی ۱۰۰ واتی</li>
+                        <li class="GoodList"> سیستم‌عامل MagicOS 8.0 مبتنی بر اندروید ۱۴</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList">نداشتن رتبه رسمی IP</li>
+                        <li class="BadList"> نداشتن سنسور عمق برخلاف مدل پرو</li>
+                        <li class="BadList"> قیمت نسبتاً بالا برای مدل پایه</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-16690641/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A2%D9%86%D8%B1-%D9%85%D8%AF%D9%84-200-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-12-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best50mil">بهترین گوشی تا 50 میلیون تومان</h2>
+                <div id="s24fediv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/66f58f294469dc406340f6b0?w=1080&q=75"
+                        alt="S24 FE">
+                    <p id="s24fe">** S24 FE</p>
+                </div>
+                <p class="mil5"> جدیدترین نسخه‌ی فن‌ادیشن سری S سامسونگ یعنی گلکسی S24 FE با تمرکز روی قابلیت‌های هوش مصنوعی و همچنین دریافت هفت سال به‌روزرسانی سیستم‌عامل معرفی شده تا کاربران بتوانند با قیمتی کمتر این ویژگی‌ها را تجربه کنند. امکانات هوش مصنوعی تنها شامل Galaxy AI نمی‌شود، بلکه به‌لطف تراشه چهار نانومتری Exynos 2400e نسخه‌ی آفلاین هوش مصنوعی گوگل یعنی Gemini Nano نیز دردسترس قرار داشته و می‌تواند برخی مدل‌های زبانی و بصری مبتنی‌بر دستگاه را بی‌نیاز از اینترنت پردازش کند.</p>
+                <p class="mil5"> براساس بررسی گلکسی S24 FE تفاوت تراشه Exynos 2400e با نسخه‌ی استاندارد تنها در کاسته‌شدن ۱۰۰ مگاهرتزی فرکانس هسته‌ی قدرتمند است تا گوشی عملکرد پایدارتری داشته و به‌خاطر باتری ۴۷۰۰ میلی‌آمپرساعتی و صفحه‌نمایش بزرگ‌تر، مصرف کمتری داشته باشد. بنابراین خریداران این گوشی همچنان از مزایای این تراشه مانند ProVisual Engine که بهبود کیفیت عکاسی به‌خصوص در شب را به‌ارمغان می‌آورد، بهره‌مند خواهند شد.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+s24fe&&mid=41C3D95C06A4BEC8440A41C3D95C06A4BEC8440A&FORM=VCGVRP" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> دسترسی کامل به Galaxy AI و بیشتر قابلیت‌های پرچمداران</li>
+                        <li class="GoodList"> تراشه بسیار قدرتمندتر از نسل قبل</li>
+                        <li class="GoodList"> صفحه‌نمایش روشن‌تر و دقیق‌تر</li>
+                        <li class="GoodList"> ۷ سال به‌روزرسانی اندروید</li>
+                        <li class="GoodList">عمر باتری طولانی‌تر</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> داغی و افت عملکرد تراشه</li>
+                        <li class="BadList"> پیشرفت نه چندان زیاد در عملکرد دوربین</li>
+                        <li class="BadList"> طراحی ضعیف‌تر از رقبا و وزن نسبتا زیاد</li>
+                        <li class="BadList"> رم ۸گیگابایتی ناکافی برای پرچم‌دار اندرویدی</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6855/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-17721945%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=2&referrer=zoomit">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best70mil">بهترین گوشی تا 70 میلیون تومان</h2>
+                <div id="x14tprodiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/66f5871a4469dc406340f66a?w=640&q=80"
+                        alt="Xiaomi 14t pro">
+                    <p id="x14tpro">** Xiaomi 14t pro</p>
+                </div>
+                <p class="mil5"> شیائومی 14T پرو برخلاف برادر کوچک‌ترش امسال پیشرفت‌های چشمگیری داشته است. گوشی شیائومی اکنون یکی از ارزشمند‌ترین شبه‌پرچمدارهای بازار به‌حساب می‌آید که دست‌کمی از گوشی‌های پرچمدار ندارد. شاسی و فریم گوشی از پلاستیک به آلومینیوم گرید ۶ ارتقا پیدا کرده که افزون‌بر لوکس‌بودن دوام و مقاومت این گوشی را افزایش داده است. حاشیه‌های اطراف نمایشگر نیز بسیار باریک‌تر شده‌اند.</p>
+                <p class="mil5"> نمایشگر OLED گوشی با رزولوشن ۱۲۲۰ در ۲۷۱۲ پیکسل و نرخ نوسازی ۱۴۴ هرتز، ۶۸ میلیارد رنگ‌را به‌تصویر می‌کشد و روشنایی‌اش به‌بیش‌از ۴۰۰۰ نیت می‌رسد. همچنین تراشه‌ی پرچمدار Dimensity 9300 پلاس قدرت فوق‌العاده‌ی خود را در این گوشی از نظر روان‌بودن، پایداری و نیز تجربه‌ی گیمینگ عالی به‌نمایش می‌گذارد. از دیگر تغییرات شیائومی 14T پرو می‌توان به پشتیبانی از شارژ بی‌سیم ۵۰ واتی اشاره کرد که یکی از کمبود‌های بزرگ این سری را برطرف می‌کند. در کنار شارژ بی‌سیم می‌توان از آداپتور ۱۲۰ واتی برای شارژ باتری ۵,۰۰۰ میلی‌آمپرساعتی آن استفاده کرد که خوشبختانه در بازار ایران داخل جعبه ارائه می‌شود.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+14t+pro&&mid=72557BEB36F0FD4D309A72557BEB36F0FD4D309A&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> فریم آلومینیومی و کیفیت ساخت عالی</li>
+                        <li class="GoodList"> تراشه بسیار قدرتمند و پایدار</li>
+                        <li class="GoodList"> پشتیبانی‌از شارژ سیمی و بی‌سیم پرسرعت</li>
+                        <li class="GoodList"> عملکرد قابل تحسین در عکاسی (دوربین‌های پشت)</li>
+                        <li class="GoodList"> قابلیت‌های جدید در رابط کاربری HyperOS</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> گرم‌شدن بدنه‌ی گوشی در استفاده‌ی طولانی مدت</li>
+                        <li class="BadList">استاندارد قدیمی پورت USB</li>
+                        <li class="BadList"> عملکرد نه‌چندان خوب دوربین سلفی</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-17073745/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-14t-pro-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-512-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-12-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="s25fediv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/68b975eb5e28440e5b5a536b?w=1080&q=75"
+                        alt="S25 FE">
+                    <p id="s25fe">** S25 FE</p>
+                </div>
+                <p class="mil5"> گلکسی S25 FE را شاید بتوان کم‌فروغ‌ترین فن‌ادیشن سامسونگ طی سال‌های اخیر به‌حساب آورد. از نظر سخت‌افزاری این گوشی کمترین تغییرات را نسبت‌به نسل گذشته تجربه می‌کند به‌طوری‌که حتی می‌توان جابجایی از تراشه Exynos 2400e به 2400 عادی را نادیده گرفت؛ تراشه‌ای که در نسخه‌های پایه و پلاس گلکسی S24 استفاده شد. کره‌ای‌ها حتی تمایلی برای به‌کاربردن Exynos 2500 از خود نشان نداده‌اند با این‌حال اذعان کرده‌اند برای عملکرد بهینه‌تر و پایدارتر، محفظه‌ی بخار را تا ۱۰ درصد بزرگ‌تر کرده‌اند که خوشبختانه نتیجه داده و سرانجام با ناپایداری و افت عملکرد خداحافظی می‌کند</p>
+                <p class="mil5"> از تغییری که بیشتر از همه به‌چشم می‌آید، می‌توان به افزایش ظرفیت باتری از ۴۷۰۰ به ۴۹۰۰ میلی‌آمپر ساعت و پشتیبانی از شارژ سریع ۴۵ وات اشاره کرد که تاثیر چشم‌گیری در بهبود شارژدهی نداشته است. گفتنی‌است که این باتری همچنان لیتیوم-یونی است. حتی دوربین‌های تله‌فوتو و اولتراواید از نسخه‌ی ابتدایی سری FE بدون تغییر مانده‌اند. اگرچه وسعت تغییرات کم بوده اما فن‌ادیشن جدید سامسونگ حالا بیشتر از هر زمان دیگری به‌خانواده پرچمداران سری S نزدیک‌تر شده تا حداقل از نظر ظاهری جذاب‌تر و خوش‌ساخت‌تر از قبل به‌نظر بیاید. برای مثال حاشیه‌های اطراف بازهم باریک‌تر شده‌اند و ضخامت و وزن دستگاه نیز کاهش قابل توجهی داشته است.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+s25fe&&mid=B6215CBAE2E8A10832F5B6215CBAE2E8A10832F5&FORM=VCGVRP" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> نازک و سبک‌شدن بدنه و بهبود کیفیت ساخت</li>
+                        <li class="GoodList"> تراشه‌ی قدرتمند با پایداری عملکرد مناسب</li>
+                        <li class="GoodList"> اجرای اندروید ۱۶ با تمامی قابلیت‌های هوش مصنوعی و ۷ سال آپدیت سیستم‌عامل</li>
+                        <li class="GoodList"> اسپیکرهای باکیفیت</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList">تغییر نکردن دوربین‌ها بعد از سه‌سال</li>
+                        <li class="BadList"> شارژدهی متوسط</li>
+                        <li class="BadList"> فقدان مدل ۱۲ گیگابایت رم</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6969/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20135132%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=1&referrer=zoomit">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best80mil">بهترین گوشی تا 80 میلیون تومان</h2>
+                <div id="Honor400prodiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/682f1d9b1c2761bb0f63afda?w=750&q=75"
+                        alt="Honor 400 pro">
+                    <p id="Honor400pro">** Honor 400 pro</p>
+                </div>
+                <p class="mil5"> آنر ۴۰۰ پرو، گوشی پریمیوم آنر در سال ۲۰۲۵ است که بعد از سری مجیک، بالارده‌ترین گوشی‌های این شرکت به‌حساب می‌آید. با‌صرف‌نظر کردن از فریم پلاستیکی، این گوشی با قاب شیشه‌ای و گواهی IP69 محصول خوش‌ساخت و بسیار مقاومی به‌حساب می‌آید. نه تنها از نظر کیفیت ساخت، بلکه در سخت‌افزار نیز این گوشی سعی‌کرده تا یکی از کامل‌ترین‌ها باشد. از استفاده از تراشه‌ی Snapdragon 8 Gen 3 گرفته تا مجموعه دوربین‌های کارآمد و باکیفیتی متشکل از دوربین واید ۲۰۰ مگاپیکسلی و دوربین تله‌فوتو ۵۰ مگاپیکسلی با حسگری بزرگ و لنزی که بزرگ‌نمایی اپتیکال سه‌برابری ارائه می‌دهد.</p>
+                <p class="mil5"> باتری ۶۰۰۰ میلی‌آمپرساعتی سیلیکون کربن دستگاه که قابلیت شارژ ۱۰۰ واتی سیمی و ۵۰ واتی بی‌سیم را دارد، شارژدهی طولانی‌مدت این گوشی در استفاده‌های روزمره را تضمین می‌کند. به‌گفته‌ی آنر، نمایشگر ۶٫۷ اینچی OLED گوشی می‌تواند به‌روشنایی بسیار خیره‌کننده‌ی ۵۰۰۰ نیت دست یابد. این گوشی از دو دوربین در حفره‌ی کپسولی شکل نمایشگر میزبانی می‌کند که یکی به‌دوربین عکاسی ۵۰ مگاپیکسلی و دیگری به تشخیص عمق ۲ مگاپیکسلی تعلق دارد. یکی دیگر از نکات قابل توجه در خصوص این گوشی پشتیبانی نرم‌افزاری طولانی‌مدت آن است که برای دریافت ۶ نسخه‌ی بعدی اندروید و رابط کاربری MagicOS برنامه‌ریزی شده است.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c++honor+400+pro&&mid=7ECB8651CDD48A466D9C7ECB8651CDD48A466D9C&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> دوربین قدرتمند (50MP اصلی + 50MP تله‌فوتو + 12MP اولتراواید + 50MP سلفی)</li>
+                        <li class="GoodList"> باتری بزرگ 6000mAh با شارژ سریع 100 وات</li>
+                        <li class="GoodList"> نمایشگر AMOLED با رزولوشن بالا و نرخ تازه‌سازی روان</li>
+                        <li class="GoodList"> ویژگی‌های هوش مصنوعی و وعده 6 سال آپدیت نرم‌افزاری</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> فریم پلاستیکی (کیفیت ساخت پایین‌تر نسبت به فلز)</li>
+                        <li class="BadList"> دوربین اولتراواید ضعیف‌تر از رقبا</li>
+                        <li class="BadList"> قیمت نسبتاً بالا در برابر رقبا با سخت‌افزار قوی‌تر</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6935/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20725568%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=2&referrer=zoomit">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best100mil">بهترین گوشی تا 100 میلیون تومان</h2>
+                <div id="xiaomi15div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/6720f71afa39dbe92f721acf?w=750&q=75"
+                        alt="Xiaomi 15">
+                    <p id="xiaomi15">** Xiaomi 15</p>
+                </div>
+                <p class="mil5"> شیائومی ۱۵، پرچمدار کامپکت و در عین حال جاه‌طلبانه‌ی چینی‌ها است که با ترکیبی از طراحی مدرن، قدرت سخت‌افزاری فوق‌العاده و امکانات پیشرفته معرفی شده است. این گوشی از فریم آلومینیومی با انحنای ظریف (Micro Curved) بهره می‌برد که ظاهر مدرن و در عین حال خوش‌دستی را فراهم می‌کند. طراحی موسوم به «آتشفشانی‌شکل» در بخش ماژول دوربین با بیرون زدگی ملایم و لبه‌های خمیده‌ی پنل پشتی، ظاهری متفاوت به بدنه داده است. این طراحی باعث شده تا بدنه‌ی گوشی هم از نظر بصری یک‌دست‌تر باشد و هم خوش‌دست‌تر احساس شود. مدل استاندارد شیائومی ۱۵، ضخامتی معادل ۸.۰۸ میلی‌متر و وزنی در حدود ۱۹۱ گرم دارد. نسخه‌ی نقره‌ای کمی ضخیم‌تر (۸٫۴۸ میلی‌متر) و سنگین‌تر (۱۹۲ گرم) است، اما در مجموع هر دو نسخه از لحاظ ابعاد و وزن در محدوده‌ی مناسبی قرار دارند.</p>
+                <p class="mil5"> شیائومی ۱۵ با بهره‌گیری از فناوری جدید LIPO و ادغام پیشرفته نمایشگر با فریم موفق شده است تا حاشیه‌های اطراف صفحه‌نمایش را به شکل محسوسی کاهش دهد. نتیجه‌ی این فرایند، ایجاد حاشیه‌هایی بسیار باریک به ضخامت تنها ۱٫۳۸ میلی‌متر در هر چهار طرف نمایشگر است؛ موضوعی که نه‌تنها بر زیبایی ظاهری تأثیر دارد، بلکه ظاهر لوکسی را نیز به‌گوشی می‌بخشد. برای افزایش دوام و مقاومت بدنه نیز شیائومی از ساختار محافظ اختصاصی خود به‌نام Guardian Structure استفاده کرده است. نمایشگر دستگاه هم با شیشه‌ی اختصاصی شیلد گلس محافظت می‌شود؛ نوعی شیشه‌ی تقویت‌شده که در عین شفاف بودن، مقاومت بیشتری نسبت به نمونه‌های معمولی دارد. همچنین استفاده از آلیاژ آلومینیوم 6M42 در فریم، منجر به افزایش ۳۳ درصدی مقاومت خمشی در مقایسه با نسل قبل (شیائومی ۱۴) شده است.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+%d8%b4%db%8c%d8%a7%d8%a6%d9%88%d9%85%db%8c+15&&mid=C401F47E1DFE9FC0961CC401F47E1DFE9FC0961C&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> عملکرد عالی: مجهز به Snapdragon 8 Elite و GPU Adreno 830، مناسب برای بازی و کارهای سنگین</li>
+                        <li class="GoodList"> دوربین‌های سه‌گانه لایکا</li>
+                        <li class="GoodList"> نمایشگر AMOLED روشن و روان: 6.36 اینچی با رزولوشن 1200×2670 و نرخ تازه‌سازی 120Hz</li>
+                        <li class="GoodList"> باتری خوب: ظرفیت حدود 5340mAh با شارژ سریع 90 وات سیمی و 80 وات بی‌سیم</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> مشکل حرارتی: در استفاده سنگین کمی داغ می‌شود</li>
+                        <li class="BadList"> رابط کاربری HyperOS 2.0 سنگین و پر از اپ‌های اضافی</li>
+                        <li class="BadList"> تفاوت کم با نسل قبل (Xiaomi 14): ارتقاها محدود هستند و برای دارندگان نسل قبلی جذابیت زیادی ندارد</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-19797628/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-15-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-512-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-12-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="iphone16div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/66dff64ce404d665a09e05f6?w=640&q=80"
+                        alt="Iphone 16">
+                    <p id="iphone16">** Iphone 16</p>
+                </div>
+                <p class="mil5"> آیفون ۱۶، جدیدترین پرچمدار اپل، با پیشرفت‌هایی چشمگیر در بخش قدرت پردازشی و دوربین به بازار عرضه شده است. این گوشی با بهره‌گیری از تراشه قدرتمند A18، تجربه کاربری روان و بی‌نظیری را فراهم می‌کند که در اجرای سنگین‌ترین برنامه‌ها و بازی‌ها نیز پایداری مثال‌زدنی دارد. اضافه شدن داینامیک‌ آیلند به مدل‌های استاندارد، رابط کاربری جذاب‌تری را به ارمغان می‌آورد و کیفیت بصری نمایشگر Super Retina XDR را ارتقا می‌بخشد.</p>
+                <p class="mil5"> دوربین اصلی ۴۸ مگاپیکسلی با قابلیت‌های عکاسی بهبود یافته و شارژدهی مطلوب باتری از مهم‌ترین مزایای آیفون ۱۶ نرمال است. با این حال، حفظ نرخ نوسازی ۶۰ هرتزی نمایشگر در مدل‌های غیر پرو و سرعت USB 2.0 برای پورت USB-C، از جمله نقاطی است که این گوشی می‌توانست در آن‌ها بهتر عمل کند. آیفون ۱۶ یک انتخاب هوشمندانه برای کاربرانی است که به دنبال تعادل بین عملکرد و نوآوری هستند.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+%d8%a7%db%8c%d9%81%d9%88%d9%86+16&&mid=D083C3843A6340F0E92DD083C3843A6340F0E92D&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> دکمه‌ی اکشن و دوربین نزدیک به مدل پرو</li>
+                        <li class="GoodList"> تراشه‌ی فوق‌العاده سریع و پایدار</li>
+                        <li class="GoodList"> شارژدهی بسیار خوب</li>
+                        <li class="GoodList"> رنگ‌بندی جذاب</li>
+                        <li class="GoodList">عکاسی ماکرو</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> نمایشگر ۶۰ هرتز</li>
+                        <li class="BadList"> قیمت نجومی در ایران</li>
+                        <li class="BadList"> عرضه بدون اپل اینتلیجنس</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6719/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-17986495%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=64eb46c1-cdb6-4548-882e-8c6b8fd870e3&outOfStock=false&storeId=1&position=2&referrer=zoobin">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <h2 id="best>100mil">بهترین گوشی بالای 100 میلیون</h2>
+                <div id="xiaomo15ultradiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/67c0671b0d1f109e70eed45c?w=1080&q=75"
+                        alt="Xiaomi 15 ultra">
+                    <p id="xiaomo15ultra">** Xiaomi 15 ultra</p>
+                </div>
+                <p class="mil5"> شیائومی ۱۵ اولترا در قامت یک پرچمدار تمام‌عیار، هویت خود را بر پایه‌ی یک مجموعه‌ی دوربین حرفه‌ای و قدرتمند بنا کرده که با همکاری مهندسان لایکا توسعه یافته است. این دستگاه که در اسفندماه ۱۴۰۳ روانه بازار شده، تمرکز اصلی خود را در ارائه‌ی تجربه‌ای در سطح دوربین‌های عکاسی حرفه‌ای، به‌ویژه در نور روز و در سناریوهای همراه با بزرگنمایی قرار داده است؛ جایی که حسگر اصلی بزرگ و لنزهای تله‌فوتوی پیشرفته‌ی آن، جزئیاتی استثنایی و کیفیتی کم‌نظیر را به نمایش می‌گذارند.</p>
+                <p class="mil5"> برای تکمیل تجربه‌ی عکاسی، شیائومی گوشی ۱۵ اولترا را به بهترین‌های بازار مجهز کرده است: یک نمایشگر فوق‌العاده روشن برای مشاهده‌ی دقیق تصاویر، قدرتمندترین تراشه‌ی پردازشی برای پردازش سریع عکس‌ها و ویدیوها و یک باتری با دوام و سرعت شارژ بسیار بالا که خیال کاربر را از بابت استفاده‌ی طولانی‌مدت در یک روز عکاسی راحت می‌کند.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+%d8%b4%db%8c%d8%a7%d8%a6%d9%88%d9%85%db%8c+15+%d8%a7%d9%88%d9%84%d8%aa%d8%b1%d8%a7&&mid=D1343D49026D704789A2D1343D49026D704789A2&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> فیلم‌برداری باکیفیت و ضبط ویدیوهای دالبی‌ویژن با تمام دوربین‌ها</li>
+                        <li class="GoodList"> عملکرد بسیار خوب دوربین‌ها در زمینه‌ی جزئیات، کنتراست و HDR</li>
+                        <li class="GoodList"> اسپیکرهای استریو با صدای شفاف و رسا</li>
+                        <li class="GoodList"> نمایشگر HDR سریع و بسیار پرنور</li>
+                        <li class="GoodList"> شارژدهی بسیار خوب</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> پشتیبانی نرم‌افزاری ۴ساله مقابل ۶-۷ساله‌ی رقبا</li>
+                        <li class="BadList"> داغ‌شدن دستگاه در استفاده‌های سنگین</li>
+                        <li class="BadList"> عملکرد ناامیدکننده‌ی دوربین‌ها در شب</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-19797541/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-15-ultra-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-512-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-16-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="S25ultradiv">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/67913d5b902ce99e63fe354d?w=1080&q=75"
+                        alt="S25 ultra">
+                    <p id="S25ultra">** S25 ultra</p>
+                </div>
+                <p class="mil5"> گلکسی S25 اولترا پرچمدار جدید سامسونگ، از تراشه‌ی ۸ هسته‌ای Snapdragon 8 Elite استفاده می‌کند که با لیتوگرافی ۳ نانومتری تولید شده است. گوشی سامسونگ در تمامی کانفیگ‌ها از ۱۲ گیگابایت رم استفاده می‌کند و برای اجرای سنگین‌ترین بازی‌ها و نرم‌افزارها در بالاترین تنظیمات گرافیکی آماده است. صفحه‌نمایش گوشی سامسونگ از وضوح ۱۴۴۰ در ۳۱۲۰ پیکسل و نرخ نوسازی ۱۲۰ هرتز بهره می‌برد و روشنایی آن در بالاترین حد به ۲۶۰۰ نیت می‌رسد.</p>
+                <p class="mil5"> دوربین پرچمدار سامسونگ در دنیای گوشی‌های موبایل حرف‌های زیادی برای گفتن دارد. دوربین اصلی ۲۰۰ مگاپیکسلی، دوربین اولتراواید ۵۰ مگاپیکسلی و دو دوربین تله‌فوتو با بزرگ‌نمایی اپتیکال ۳ و ۵ برابری، دوربین‌های S25 اولترا را تشکیل می‌دهند. باتری گوشی ۵۰۰۰ میلی‌آمپرساعتی است و با شارژرهای ۴۵ واتی در کمتر از نیم ساعت حدود ۶۵ درصد شارژ می‌شود.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+%d8%a7%d8%b3+25+%d8%a7%d9%88%d9%84%d8%aa%d8%b1%d8%a7&&mid=9EAF947B80B7FA6C316D9EAF947B80B7FA6C316D&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> پیشرفت چشمگیر عملکرد با اسنپدراگون ۸ الیت</li>
+                        <li class="GoodList"> طراحی چشم‌نوازتر با گوشه‌های گرد و فریم تخت</li>
+                        <li class="GoodList"> تجربه‌ی لذت‌بخش و چشم‌نواز One UI 7</li>
+                        <li class="GoodList"> باریک‌تر، کم‌عرض‌تر و سبک‌تر از قبل</li>
+                        <li class="GoodList">فیلم‌برداری ۱۰بیتی HDR و LOG</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> پیشرفت جزئی و نامحسوس تجربه‌ی عکاسی</li>
+                        <li class="BadList"> افت محسوس عملکرد در پردازش‌های سنگین</li>
+                        <li class="BadList"> ادامه‌ی استفاده از نمایشگر ۸بیتی با روشنایی کمتر از رقبا</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-17918956/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-s25-ultra-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-12-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%BE%DA%A9-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                <div id="oneplus15div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/68ff74a5d829d3e43f046b05?w=1080&q=75"
+                        alt="Oneplus 15">
+                    <p id="oneplus15">** Oneplus 15</p>
+                </div>
+                <p class="mil5"> وان‌پلاس ۱۵ همانطور که از ظاهرش مشخص است، اندکی روحیه‌ی رقابت در بخش گوشی وان پلاس ۱۵ که در آبان ۱۴۰۴ به بازار عرضه شده، با رویکردی جسورانه در طراحی تخت و حذف نمایشگر‌های خمیده تلاش کرده است تا استاندارد‌های جدیدی را در ارگونومی و دوام با گواهی IP69K تعریف کند. این دستگاه با تجهیز به تراشه Snapdragon 8 Elite Gen 5 و باتری عظیم ۷۳۰۰ میلی‌آمپرساعتی، در بخش پردازشی و شارژدهی جهش بزرگی نسبت به نسل قبل و حتی رقبای قدرتمندی مانند Galaxy S25 Ultra داشته است. استفاده از سیستم خنک‌کننده بهینه و نرخ نوسازی ۱۶۵ هرتز، آن را به گزینه‌ای ایده‌آل برای گیمر‌ها تبدیل می‌کند؛ هرچند داغ‌شدن بدنه در فشار‌های سنگین طولانی همچنان چالشی قابل‌توجه است.</p>
+                <p class="mil5"> با این حال، قطع همکاری با Hasselblad و استفاده از سنسور‌های کوچک‌تر در بخش دوربین، پاشنه آشیل این پرچمدار محسوب می‌شود. اگرچه وان‌پلاس ۱۵ در نور روز و فیلم‌برداری عملکرد قابل‌قبولی دارد، اما در عکاسی نور کم و ثبت جزئیات سایه‌ها، قافیه را به رقبای هم‌رده می‌بازد. این گوشی در کانفیگ‌های متعددی با قیمت ۸۹۹ الی ۹۹۹ دلار برای نسخه‌های ۲۵۶ و ۵۱۲ گیگابایتی در بازار‌های جهانی عرضه شده که تعادلی بحث‌برانگیز میان قدرت سخت‌افزاری خیره‌کننده و عقب‌گرد در بخش دوربین ایجاد کرده است و خرید آن را به اولویت‌های کاربر وابسته می‌کند.</p>
+                <a href="https://www.bing.com/videos/riverview/relatedvideo?q=%d8%a8%d8%b1%d8%b1%d8%b3%db%8c+%d9%88%d8%a7%d9%86+%d9%be%d9%84%d8%a7%d8%b3+15&&mid=2B49CBA1CB9E2CFC9A8C2B49CBA1CB9E2CFC9A8C&FORM=VRDGAR" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> شارژدهی بی‌رقیب با باتری ۷۳۰۰ میلی‌آمپرساعتی</li>
+                        <li class="GoodList"> شارژ سریع ۱۲۰ وات درون جعبه</li>
+                        <li class="GoodList"> عملکرد پردازشی خیره‌کننده اسنپدراگون ۸ الیت نسل ۵</li>
+                        <li class="GoodList"> نمایشگر ۱۶۵ هرتزی تخت با روشنایی ۴۰۰۰ نیت</li>
+                        <li class="GoodList"> استاندارد مقاومتی IP69K</li>
+                        <li class="GoodList"> نرخ نمونه‌برداری لمسی ۳۲۰۰ هرتز و امکانات ویژه گیمینگ</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList"> عملکرد ضعیف دوربین در نور کم</li>
+                        <li class="BadList"> داغ‌شدن بیش از حد در پردازش‌های سنگین</li>
+                        <li class="BadList"> پایداری پایین ۶۰ درصدی پردازنده گرافیکی</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://torob.com/p/bd78ccd3-4c28-4639-bd7e-6ef2474c9f73/%DA%AF%D9%88%D8%B4%DB%8C-%D9%88%D8%A7%D9%86-%D9%BE%D9%84%D8%A7%D8%B3-15-5g-%D8%AD%D8%A7%D9%81%D8%B8%D9%87-256-%D8%B1%D9%85-12-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/">خرید
                     از دیجی کالا</a>
             </div>
         </main>
@@ -546,7 +1133,7 @@ include("header.html");
                 <td class="tabledata">بالای 100 میلیون</td>
                 <td class="tabledata">Xiaomi 15 ultra</td>
                 <td class="tabledata">S25 ultra</td>
-                <td class="tabledata">وان پلاس 13</td>
+                <td class="tabledata">وان پلاس 15</td>
             </tr>
         </table>
     </section>
@@ -554,33 +1141,33 @@ include("header.html");
     <div id="tosiebox">
         <br><br>
         <div class="tosiediv">
-            <img src="https://api2.zoomit.ir/media/register-phone-68bd974c5e28440e5b5a6688?w=1920&q=75"
-                alt="تصویر ریجیستر" class="tosieimg">
-            <a class="tosie" href="***">ریجیستر کردن گوشی در ایران 1404</a>
+           <a id="tosiean" href="https://www.zoomit.ir/howto/360055-comprehensive-registry-training/" ><img src="https://api2.zoomit.ir/media/register-phone-68bd974c5e28440e5b5a6688?w=1920&q=75"
+                alt="تصویر ریجیستر" class="tosieimg"></a> 
+            <a class="tosie" href="https://www.zoomit.ir/howto/360055-comprehensive-registry-training/">ریجیستر کردن گوشی در ایران 1404</a>
         </div>
         <br><br>
         <div class="tosiediv">
-            <img src="https://api2.zoomit.ir/media/galaxy-z-fold-5-zoomit-website2-64e0c499a76590f15c12982a?w=1920&q=75"
-                alt="تصویر ریجیستر" class="tosieimg">
-            <a class="tosie" href="***">راه اندازی گوشی سامسونگ به صورت مرحله به مرحله</a>
+         <a id="tosiean" href="https://www.zoomit.ir/howto/411329-set-up-samsung-smartphone-step-by-step/">   <img src="https://api2.zoomit.ir/media/galaxy-z-fold-5-zoomit-website2-64e0c499a76590f15c12982a?w=1920&q=75"
+                alt="تصویر ریجیستر" class="tosieimg"></a>
+            <a class="tosie" href="https://www.zoomit.ir/howto/411329-set-up-samsung-smartphone-step-by-step/">راه اندازی گوشی سامسونگ به صورت مرحله به مرحله</a>
         </div>
         <br><br>
         <div class="tosiediv">
-            <img src="https://api2.zoomit.ir/media/iphone-15-pro-15-pro-max-displays-651d69d1357ee5d088dc681a?w=1920&q=75"
-                alt="تصویر ریجیستر" class="tosieimg">
-            <a class="tosie" href="***">آموزش راه اندازی آیفون</a>
+          <a id="tosiean" href="https://www.zoomit.ir/mobile-learning/420037-how-to-set-up-iphone/"> <img src="https://api2.zoomit.ir/media/iphone-15-pro-15-pro-max-displays-651d69d1357ee5d088dc681a?w=1920&q=75"
+                alt="تصویر ریجیستر" class="tosieimg"></a> 
+            <a class="tosie" href="https://www.zoomit.ir/mobile-learning/420037-how-to-set-up-iphone/">آموزش راه اندازی آیفون</a>
         </div>
         <br><br>
         <div class="tosiediv">
-            <img src="https://api2.zoomit.ir/media/poco-x6-pro-hyper-os-65cd274bad00028634ae9395?w=1920&q=75"
-                alt="تصویر ریجیستر" class="tosieimg">
-            <a class="tosie" href="***">چطور گوشی شیائومی را برای اولین بار راه اندازی کنیم؟</a>
+           <a id="tosiean" href="https://www.zoomit.ir/mobile-learning/421806-set-up-xiaomi-smartphone/"> <img src="https://api2.zoomit.ir/media/poco-x6-pro-hyper-os-65cd274bad00028634ae9395?w=1920&q=75"
+                alt="تصویر ریجیستر" class="tosieimg"></a>
+            <a class="tosie" href="https://www.zoomit.ir/mobile-learning/421806-set-up-xiaomi-smartphone/">چطور گوشی شیائومی را برای اولین بار راه اندازی کنیم؟</a>
         </div>
         <br><br>
         <div class="tosiediv">
-            <img src="https://api2.zoomit.ir/media/someone-is-transferring-files-655511267c0c309f9443361e?w=1920&q=75"
-                alt="تصویر ریجیستر" class="tosieimg">
-            <a class="tosie" href="***">روش های انتقال فایل از گوشی قدیمی به گوشی جدید</a>
+          <a id="tosiean" href="https://www.zoomit.ir/howto/411570-transfer-files-from-old-phone-to-new-phone/">  <img src="https://api2.zoomit.ir/media/someone-is-transferring-files-655511267c0c309f9443361e?w=1920&q=75"
+                alt="تصویر ریجیستر" class="tosieimg"></a>
+            <a class="tosie" href="https://www.zoomit.ir/howto/411570-transfer-files-from-old-phone-to-new-phone/">روش های انتقال فایل از گوشی قدیمی به گوشی جدید</a>
         </div>
         <br><br>
     </div>
@@ -588,28 +1175,69 @@ include("header.html");
         <p id="othermaghale">سایر مقالات : </p>
     </div>
     <div id="linkimg">
-        <a href="***" class="saierlinks">
+        <div id="saierdiv">
+<a href="https://www.zoomit.ir/buying-guide/400446-best-xiaomi-gaming-phone/" class="saierlinks">
             <img src="https://api2.zoomit.ir/media/best-Xiaomi-gaming-phones-66a4a955d73f03d2a39947fd?w=750&q=75"
                 alt="بهترین گوشی گیمینگ شیائومی" class="saierimg">
             <p class="othertxt">بهترین گوشی گیمینگ شیائومی</p>
         </a>
-        <a href="***" class="saierlinks">
+        </div>
+        <div id="saierdiv">
+            <a href="https://www.zoomit.ir/buying-guide/404765-xiaomi-phones-best-battery-life/" class="saierlinks">
             <img src="https://api2.zoomit.ir/media/best-xiaomi-phones-battery-life-68652c8c881b5331b39403a4?w=750&q=75"
                 alt="بهترین باتری شیائومی" class="saierimg">
             <p class="othertxt">بهترین گوشی شیائومی از نظر باتری</p>
         </a>
-        <a href="***" class="saierlinks">
+        </div>
+        <div id="saierdiv">
+            <a href="https://www.zoomit.ir/buying-guide/370770-best-gaming-smartphone-buying-guide/" class="saierlinks">
             <img src="https://api2.zoomit.ir/media/Best-Gaming-Phones-Iran-Market-6688f0024b10d5a6894c020e?w=750&q=75"
                 alt="بهترین گوشی مناسب بازی" class="saierimg">
             <p class="othertxt">بهترین گوشی گیمینگ</p>
 
         </a>
-        <a href="***" class="saierlinks">
+        </div>
+        <div id="saierdiv">
+            <a href="https://www.zoomit.ir/buying-guide/373335-best-wireless-headphones-iran/" class="saierlinks">
             <img src="https://api2.zoomit.ir/media/airpod-668123f1772792639dec7e92?w=750&q=75" alt="بهترین ایرپاد"
                 class="saierimg">
             <p class="othertxt">بهترین ایرپادها</p>
 
+</a>
+        </div>
+        <div id="saierdiv">
+            <a href="https://www.zoomit.ir/buying-guide/411151-best-xiaomi-camera-phones/" class="saierlinks">
+            <img src="https://api2.zoomit.ir/media/67389a89b135006b82a2374c?w=1920&q=75" alt="بهترین گوشی شیائومی از نظر دوربین"
+                class="saierimg">
+            <p class="othertxt">بهترین گوشی شیائومی از نظر دوربین</p>
         </a>
+        </div>
+         
+        <div id="saierdiv">
+             <a href="https://www.zoomit.ir/buying-guide/371890-best-laptops-of-2021-buying-guide/" class="saierlinks">
+            <img src="https://api2.zoomit.ir/media/6909c5ff00044416ed58a03c?w=1920&q=75" alt="بهترین لپ تاپ های بازار ایران"
+                class="saierimg">
+            <p class="othertxt">بهترین لپ تاپ های بازار ایران</p>
+
+        </a>
+        </div>
+        <div id="saierdiv">
+            <a href="https://www.zoomit.ir/buying-guide/401632-samsung-galaxy-phone-buying-guide/" class="saierlinks">
+            <img src="https://api2.zoomit.ir/media/665c5a7e772792639debf996?w=1920&q=75" alt="بهترین گوشی سامسونگ"
+                class="saierimg">
+            <p class="othertxt">بهترین گوشی سامسونگ</p>
+
+        </a>
+        </div>
+         <div id="saierdiv">
+             <a href="https://www.zoomit.ir/buying-guide/127190-best-smartwatch-smartband-buying-guide/" class="saierlinks">
+            <img src="https://api2.zoomit.ir/media/6512b8e2836de7a199de77b0?w=1920&q=75" alt="بهترین مچ بند و ساعت هوشمند بازار ایران"
+                class="saierimg">
+            <p class="othertxt">بهترین مچ بند و ساعت هوشمند بازار ایران</p>
+
+        </a>
+        </div>
+        
     </div>
     <?php
     include("footer.html")
