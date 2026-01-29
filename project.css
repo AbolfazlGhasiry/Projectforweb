@@ -156,7 +156,8 @@ img,  #mahimg, .tosieimg, .saierimg {
 #iphone16,
 #xiaomo15ultra,
 #S25ultra,
-#oneplus15{
+#oneplus15,
+#a56{
     display: inline-block;
     font-weight: 600;
     font-size: clamp(20px, 5vw, 50px); 
@@ -164,9 +165,9 @@ img,  #mahimg, .tosieimg, .saierimg {
 }
 #RedmiA5div , #note14sdiv , #A16div , #A07div ,
  #motoE15div , #CMF1div , #Note14prodiv , #A26div ,
- #realme12plusdiv, #Pocox7div , #A36div, #Pocox7prodiv, #Honor200div,
+ #realme12plusdiv, #Pocox7div , #A36div, #Pocox7prodiv,  #Honor200div,
  #s24fediv, #x14tprodiv, #s25fediv , #Honor400prodiv , #xiaomi15div , #iphone16div,
- #xiaomo15ultradiv, #S25ultradiv , #oneplus15div{
+ #xiaomo15ultradiv, #S25ultradiv , #oneplus15div , #a56div{
     display: flex;
     justify-content: space-around;
     align-items: center;

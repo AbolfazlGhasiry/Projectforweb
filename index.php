@@ -153,8 +153,9 @@ include("header.html");
                     بازار
                     کشور، به‌روز می‌شود</span></p>
             <div id="joda"></div>
+            <h2 id="best5mil">بهترین گوشی تا 5 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best5mil">بهترین گوشی تا 5 میلیون تومان</h2>
+                
                 <p id="mil5">متاسفانه به‌علت افزایش نرخ ارز، گوشی هوشمند کارآمدی که بتوان با بودجه زیر ۵ میلیون
                     تومان
                     خریداری کرد
@@ -164,8 +165,9 @@ include("header.html");
                     آن‌ها را به‌شما توصیه نکرده و پیشنهاد می‌کنیم با افزایش بودجه سراغ گزینه‌های بهتر بروید.</p>
                 <div id="jodapart"></div>
             </div>
+            <h2 id="best10mil">بهترین گوشی تا ۱۰ میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best10mil">بهترین گوشی تا ۱۰ میلیون تومان</h2>
+                
                 <div id="RedmiA5div">
                     <img id="mahimg" src="https://api2.zoomit.ir/media/67e235e1750a80f4f1e03949?w=750&q=75"
                         alt="Redmi A5">
@@ -346,8 +348,9 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/68a9509141118f0a98eb847f/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20110013%2F%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a07-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=cb8d8922-a7c1-4e1d-b2d1-58bb114b2ce1&outOfStock=false&storeId=1&position=1">خرید
                     از دیجی کالا</a>
             </div>
+             <h2 id="best10mil">بهترین گوشی تا 15 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best10mil">بهترین گوشی تا 15 میلیون تومان</h2>
+               
                 <div id="A16div">
                     <img id="mahimg" src="https://api2.zoomit.ir/media/673db002c85eb3f95ac8c002?w=1080&q=75" alt="A16">
                     <p id="A16">** سامسونگ A16</p>
@@ -463,8 +466,9 @@ include("header.html");
                     href="https://www.digikala.com/product/dkp-19040705/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-note-14s-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/">خرید
                     از دیجی کالا</a>
             </div>
+            <h2 id="best20mil">بهترین گوشی تا 20 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best20mil">بهترین گوشی تا 20 میلیون تومان</h2>
+                
                 <div id="CMF1div">
                     <img id="mahimg" src="https://api2.zoomit.ir/media/668bb696772792639dec9a14?w=1080&q=75"
                         alt="CMF 1">
@@ -530,8 +534,9 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add68c7/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20935588%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=7&referrer=zoobin">خرید
                     از دیجی کالا</a>
             </div>
+            <h2 id="best25mil">بهترین گوشی تا 25 میلیون تومان</h2>
              <div class="mahdiv">
-                <h2 id="best25mil">بهترین گوشی تا 25 میلیون تومان</h2>
+                
                 <div id="A26div">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/67c4432b07196c81a71d4a33?w=1080&q=75"
                         alt="A26">
@@ -629,8 +634,9 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add67ca/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20311180%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=6c3d9af9-f110-4247-922e-bddca17da064&outOfStock=false&storeId=1&position=5&referrer=zoobin">خرید
                     از دیجی کالا</a>
             </div>
+            <h2 id="best30mil">بهترین گوشی تا 30 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best30mil">بهترین گوشی تا 30 میلیون تومان</h2>
+                
                 <div id="Pocox7div">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/677fd5966e3d4b67935364ed?w=640&q=80"
                         alt="Poco x7">
@@ -694,8 +700,9 @@ include("header.html");
                     href="https://www.digikala.com/product/dkp-18577783/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a36-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85">خرید
                     از دیجی کالا</a>
             </div>
+            <h2 id="best40mil">بهترین گوشی تا 40 میلیون تومان</h2> 
             <div class="mahdiv">
-                <h2 id="best40mil">بهترین گوشی تا 40 میلیون تومان</h2>
+                
                 <div id="Pocox7prodiv">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/677fdc736e3d4b6793536559?w=1080&q=75"
                         alt="Poco x7 pro">
@@ -724,6 +731,39 @@ include("header.html");
                 </div>
                 <a class="buy"
                     href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6902/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-17986248%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=2&referrer=zoomit">خرید
+                    از دیجی کالا</a>
+            </div>
+            <div class="mahdiv">
+                
+                <div id="a56div">
+                    <img id="mahimg"  src="https://api2.zoomit.ir/media/67c43dd407196c81a71d497c?w=640&q=80"
+                        alt="A56">
+                    <p id="a56">** A56</p>
+                </div>
+                <p class="mil5"> گوشی سامسونگ گلکسی A56؛ محبوب‌ترین میان‌رده بازار که حالا بسیار سبک‌تر (حتی سبک‌تر از A54) و البته نازک‌تر از نسل قبل شده است و ترکیب آن با فریم آلومینیومی و بدنه‌ی شیشه‌ای از گوریلا گلس ویکتوس پلاس، حس‌وحال پریمیوم‌تری به‌کاربر منتقل می‌کند. یکی دیگر از تغییراتی‌ که در ظاهر این گوشی به‌چشم می‌خورد، به‌هم پیوستن ماژول‌های دوربین و شکل‌دادن یک ماژول کپسولی‌شکل واحد است که البته بیرو‌ن‌زدگی زیادی هم از بدنه دارد.</p>
+                <p class="mil5"> تغییرات باطنی سامسونگ آ56 از پیشرفت‌های اندک و ناچیز این گوشی خبر می‌دهند؛ برای مثال تراشه‌ی Exynos 1580 نسبت به قبل بهبود چشمگیری را تجربه نمی‌کند، البته واحد گرافیکی پیشرفت‌های خوبی داشته اما به‌اندازه‌ای نیست که بتوانیم A56 را رقیب گوشی‌های بسیار قدرتمندتر و گیمینگ‌محوری چون پوکو X7 پرو بدانیم. با این‌حال براساس بررسی گلکسی A56 این گوشی در استفاده‌های بی‌درنگ و بدون وقفه، جابجایی سریع بین برنامه‌ها و اجرای بازی‌های پرطرفدار با تنظیمات گرافیکی متوسط پاسخگویی و پایداری خوبی دارد.</p>
+                <a href="https://persian17.cdn.asset.aparat.com/aparat-video/1198d22af8da828792d8cecf5b7d41fa64133756-720p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjM1NzVjNzAzZDQzYTM3YzdhNGMxY2Q2MzM0M2E3M2U3IiwiZXhwIjoxNzY5Njk3NjYzLCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.KO2ia2tO9Rzl37jalHKwXdiLfbqbqg67S-GJnGWlFkI" id="reviewspecial">
+                    <span class="icon">📱</span>
+                    بررسی تخصصی این گوشی
+                </a>
+                <div class="nokat">
+                    <ul class="Good">
+                        <li style="color: green; font-size: larger;">نکات مثبت</li>
+                        <li class="GoodList"> نمایشگر OLED با رنگ‌های دقیق</li>
+                        <li class="GoodList"> عرضه با اندروید ۱۵ و One UI 7</li>
+                        <li class="GoodList"> بدنه باکیفیت و خوش‌دست</li>
+                        <li class="GoodList">۶ سال پشتیبانی نرم‌افزاری</li>
+                    </ul>
+                    <ul class="Bad">
+                        <li style="color: red; font-size: larger;">نکات منفی</li>
+                        <li class="BadList">قیمت نامعقول به‌نسبت میزان ارتقا</li>
+                        <li class="BadList"> پیشرفت ناچیز عملکرد دوربین</li>
+                        <li class="BadList"> تراشه‌ی ضعیف‌تر از رقبا</li>
+                        <li class="BadList">فقدان دوربین تله‌فوتو</li>
+                    </ul>
+                </div>
+                <a class="buy"
+                    href="https://www.digikala.com/product/dkp-18575915/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a56-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85">خرید
                     از دیجی کالا</a>
             </div>
             <div class="mahdiv">
@@ -758,8 +798,9 @@ include("header.html");
                     href="https://www.digikala.com/product/dkp-16690641/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A2%D9%86%D8%B1-%D9%85%D8%AF%D9%84-200-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-12-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA">خرید
                     از دیجی کالا</a>
             </div>
+             <h2 id="best50mil">بهترین گوشی تا 50 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best50mil">بهترین گوشی تا 50 میلیون تومان</h2>
+               
                 <div id="s24fediv">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/66f58f294469dc406340f6b0?w=1080&q=75"
                         alt="S24 FE">
@@ -792,8 +833,9 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6855/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-17721945%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=2&referrer=zoomit">خرید
                     از دیجی کالا</a>
             </div>
+            <h2 id="best70mil">بهترین گوشی تا 70 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best70mil">بهترین گوشی تا 70 میلیون تومان</h2>
+                
                 <div id="x14tprodiv">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/66f5871a4469dc406340f66a?w=640&q=80"
                         alt="Xiaomi 14t pro">
@@ -856,8 +898,9 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6969/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20135132%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=1&referrer=zoomit">خرید
                     از دیجی کالا</a>
             </div>
+             <h2 id="best80mil">بهترین گوشی تا 80 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best80mil">بهترین گوشی تا 80 میلیون تومان</h2>
+               
                 <div id="Honor400prodiv">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/682f1d9b1c2761bb0f63afda?w=750&q=75"
                         alt="Honor 400 pro">
@@ -888,8 +931,9 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6935/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-20725568%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=b6d9eff9-024d-4dea-aae4-b4ce93cd3bb7&outOfStock=false&storeId=1&position=2&referrer=zoomit">خرید
                     از دیجی کالا</a>
             </div>
+             <h2 id="best100mil">بهترین گوشی تا 100 میلیون تومان</h2>
             <div class="mahdiv">
-                <h2 id="best100mil">بهترین گوشی تا 100 میلیون تومان</h2>
+               
                 <div id="xiaomi15div">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/6720f71afa39dbe92f721acf?w=750&q=75"
                         alt="Xiaomi 15">
@@ -952,8 +996,9 @@ include("header.html");
                     href="https://api2.zoomit.ir/catalog/store-links/692ae70c77170cb68add6719/click?url=https%3A%2F%2Fwww.digikala.com%2Fproduct%2Fdkp-17986495%2F%3Futm_source%3DZoomitProduct%26utm_medium%3DPriceList&sessionId=64eb46c1-cdb6-4548-882e-8c6b8fd870e3&outOfStock=false&storeId=1&position=2&referrer=zoobin">خرید
                     از دیجی کالا</a>
             </div>
+             <h2 id="best>100mil">بهترین گوشی بالای 100 میلیون</h2>
             <div class="mahdiv">
-                <h2 id="best>100mil">بهترین گوشی بالای 100 میلیون</h2>
+               
                 <div id="xiaomo15ultradiv">
                     <img id="mahimg"  src="https://api2.zoomit.ir/media/67c0671b0d1f109e70eed45c?w=1080&q=75"
                         alt="Xiaomi 15 ultra">
@@ -1064,76 +1109,20 @@ include("header.html");
             <th class="tablehead">سامسونگ</th>
             <th class="tablehead">سایر برندها</th>
             <tr class="tablerow">
-                <td class="tabledata">5 میلیون</td>
-                <td class="tabledata">----</td>
-                <td class="tabledata">----</td>
-                <td class="tabledata">----</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">10 میلیون</td>
-                <td class="tabledata">Redmi A5</td>
-                <td class="tabledata">A07</td>
-                <td class="tabledata">Moto E15</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">15 میلیون</td>
-                <td class="tabledata">Note 14s</td>
-                <td class="tabledata">A16</td>
-                <td class="tabledata">Nokia X30 5G</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">20 میلیون</td>
-                <td class="tabledata">Note 14 pro</td>
-                <td class="tabledata">----</td>
-                <td class="tabledata">CM phone 1</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">25 میلیون</td>
-                <td class="tabledata">Note 14 pro</td>
-                <td class="tabledata">A26</td>
-                <td class="tabledata">ریلمی 12 پلاس</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">30 میلیون</td>
-                <td class="tabledata">Poco x7</td>
-                <td class="tabledata">A36</td>
-                <td class="tabledata">----</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">40 میلیون</td>
-                <td class="tabledata">Poco x7 pro</td>
-                <td class="tabledata">A56</td>
-                <td class="tabledata">آنر 200</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">50 میلیون</td>
-                <td class="tabledata">----</td>
-                <td class="tabledata">S24 FE</td>
-                <td class="tabledata">----</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">70 میلیون</td>
-                <td class="tabledata">Xiaomi 14T pro</td>
-                <td class="tabledata">S25 FE</td>
-                <td class="tabledata">----</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">80 میلیون</td>
-                <td class="tabledata">----</td>
-                <td class="tabledata">----</td>
-                <td class="tabledata">آنر 400 پرو</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">100 میلیون</td>
-                <td class="tabledata">Xiaomi 15</td>
-                <td class="tabledata">----</td>
-                <td class="tabledata">Iphone 16</td>
-            </tr>
-            <tr class="tablerow">
-                <td class="tabledata">بالای 100 میلیون</td>
-                <td class="tabledata">Xiaomi 15 ultra</td>
-                <td class="tabledata">S25 ultra</td>
-                <td class="tabledata">وان پلاس 15</td>
+                <?php
+                $connect = mysqli_connect("localhost" , "root" , "" , "phones");
+                $result = mysqli_query($connect, "SELECT * FROM `phones`");
+                mysqli_close($connect);
+                $row = mysqli_fetch_array($result);
+                while($row){
+                echo("<td class='tabledata'>".$row["price"]."</td>
+                <td class='tabledata'>".$row["xiaomi"]."</td>
+                <td class='tabledata'>".$row["samsung"]."</td>
+                <td class='tabledata'>".$row["others"]."</td></tr>
+                <tr class='tablerow'>");
+                $row = mysqli_fetch_array($result);
+                }
+                ?>
             </tr>
         </table>
     </section>

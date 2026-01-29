@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حذف رکورد</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --danger-color: #f72585;
+            --success-color: #4cc9f0;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+            --gray-color: #6c757d;
+            --border-radius: 12px;
+            --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Card Style */
+        .card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 40px;
+            width: 100%;
+            margin-bottom: 30px;
+            transition: var(--transition);
+            border-top: 5px solid var(--primary-color);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .header p {
+            color: var(--gray-color);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Form Styles */
+        .form-container {
+            margin-top: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark-color);
+            font-size: 1.1rem;
+        }
+        
+        .input-wrapper {
+            position: relative;
+        }
+        
+        .input-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 15px 15px 15px 50px;
+            border: 2px solid #e0e0e0;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: var(--transition);
+            background-color: #f9f9f9;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background-color: white;
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+        }
+        
+        input[type="text"]::placeholder {
+            color: #a0a0a0;}
+        
+        .hint {
+            background-color: #f0f7ff;
+            border-right: 4px solid var(--primary-color);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            color: var(--gray-color);
+        }
+        
+        .hint-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .hint code {
+            background-color: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: var(--danger-color);
+        }
+        
+        /* Button Styles */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 7px 14px rgba(67, 97, 238, 0.3);
+        }
+        
+        .btn-danger {
+            background-color: var(--danger-color);
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background-color: #e11570;
+            transform: translateY(-3px);
+            box-shadow: 0 7px 14px rgba(247, 37, 133, 0.3);
+        }
+        
+        .btn-back {
+            background-color: #6c757d;
+            color: white;
+            margin-top: 20px;
+        }
+        
+        .btn-back:hover {
+            background-color: #5a6268;
+            transform: translateY(-3px);
+            box-shadow: 0 7px 14px rgba(108, 117, 125, 0.3);
+        }
+        
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        /* Warning Box */
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffd54f;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            margin-top: 25px;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        
+        .warning-icon {
+            color: #ff9800;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .warning-content h4 {
+            color: #856404;
+            margin-bottom: 5px;
+        }
+        
+        .warning-content p {
+            color: #856404;
+            font-size: 0.95rem;
+        }
+        
+        /* Example Section */
+        .examples {
+            background-color: #f8f9fa;
+            border-radius: var(--border-radius);
+            padding: 25px;
+            margin-top: 40px;
+            border-right: 4px solid var(--success-color);
+        }
+        
+        .examples h3 {
+            color: var(--success-color);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .example-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+        .example-item:last-child {
+            margin-bottom: 0;padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .example-item p {
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .example-code {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            color: var(--dark-color);
+            direction: ltr;
+            overflow-x: auto;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card {
+                padding: 25px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .button-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            input[type="text"] {
+                padding: 12px 12px 12px 45px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 15px;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
+            .hint, .examples, .warning-box {
+                padding: 15px;
+            }
+        }
+        
+        /* Animation for form */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .card {
+            animation: fadeIn 0.8s ease-out;
+        }
+        
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #2c3e50 0%, #1a1a2e 100%);
+                color: #f1f1f1;
+            }
+            
+            .card {
+                background-color: #2d3748;
+                color: #f1f1f1;
+            }
+            
+            input[type="text"] {
+                background-color: #4a5568;
+                border-color: #4a5568;
+                color: #f1f1f1;
+            }
+            
+            input[type="text"]:focus {
+                background-color: #4a5568;
+            }
+            
+            .hint {
+                background-color: #3a4558;
+                color: #d1d1d1;
+            }
+            
+            .examples {
+                background-color: #3a4558;
+            }
+            
+            .example-code {
+                background-color: #4a5568;
+                color: #f1f1f1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1><i class="fas fa-trash-alt"></i> حذف رکورد از پایگاه داده</h1>
+                <p>برای حذف رکوردهای مورد نظر، شرط حذف را در فرم زیر وارد نمایید</p>
+            </div>
+            
+            <div class="form-container">
+                <form action="del.php" method="GET" id="deleteForm">
+                    <div class="form-group">
+                        <label for="condition"><i class="fas fa-filter"></i> شرط حذف رکوردها</label>
+                        <div class="input-wrapper">
+                            <div class="input-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <input type="text" name="if" id="condition" placeholder='مثال: id = "5" یا status = "inactive"' required></div>
+                        
+                        <div class="hint">
+                            <div class="hint-title">
+                                <i class="fas fa-info-circle"></i> راهنمایی
+                            </div>
+                            <p>شرط باید به فرمت SQL WHERE clause نوشته شود. مقدار رشته‌ای باید در <code>" "</code> قرار گیرد. مثال: <code>name = "علی"</code></p>
+                        </div>
+                    </div>
+                    
+                    <div class="warning-box">
+                        <div class="warning-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="warning-content">
+                            <h4>هشدار مهم</h4>
+                            <p>این عمل قابل بازگشت نیست. پس از تایید، رکوردهای مطابق با شرط وارد شده به طور دائم از پایگاه داده حذف خواهند شد.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="button-group">
+                        <a href="index.php" class="btn btn-back">
+                            <i class="fas fa-arrow-right"></i> بازگشت به صفحه اصلی
+                        </a>
+                        
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> حذف رکوردهای انتخاب شده
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="examples">
+                <h3><i class="fas fa-list-alt"></i> مثال‌هایی از شرایط حذف</h3>
+                
+                <div class="example-item">
+                    <p>حذف کاربر با شناسه مشخص:</p>
+                    <div class="example-code">id = "10"</div>
+                </div>
+                
+                <div class="example-item">
+                    <p>حذف محصولات با قیمت بالاتر از مقدار مشخص:</p>
+                    <div class="example-code">price > "1000"</div>
+                </div>
+                
+                <div class="example-item">
+                    <p>حذف کاربران غیرفعال:</p>
+                    <div class="example-code">status = "inactive"</div>
+                </div>
+                
+                <div class="example-item">
+                    <p>حذف رکوردهای تاریخ گذشته:</p>
+                    <div class="example-code">expire_date < "2023-12-01"</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>سیستم مدیریت پایگاه داده | کلیه حقوق محفوظ است © ۱۴۰۳</p>
+        </div>
+    </div>
+
+
+                
+</body>
+</html>

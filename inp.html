@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود داده‌های جدید</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --success-color: #4cc9f0;
+            --info-color: #4895ef;
+            --warning-color: #f8961e;
+            --danger-color: #f72585;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+            --gray-color: #6c757d;
+            --border-radius: 12px;
+            --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        /* Card Style */
+        .main-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 40px;
+            width: 100%;
+            margin-bottom: 30px;
+            transition: var(--transition);
+            border-top: 5px solid var(--primary-color);
+            overflow: hidden;
+        }
+        
+        .main-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+        }
+        
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .header p {
+            color: var(--gray-color);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .header-decoration {
+            position: absolute;
+            top: -10px;
+            left: 0;
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(to right, var(--primary-color), var(--success-color));
+            border-radius: 5px;
+        }
+        
+        /* Form Styles */
+        .form-container {
+            margin-top: 20px;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            position: relative;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: var(--dark-color);
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .label-icon {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+        
+        .input-wrapper {
+            position: relative;}
+        
+        .input-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray-color);
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 16px 50px 16px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            transition: var(--transition);
+            background-color: #f9f9f9;
+            color: var(--dark-color);
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background-color: white;
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+        }
+        
+        input[type="text"]:focus + .input-icon {
+            color: var(--primary-color);
+        }
+        
+        input[type="text"]::placeholder {
+            color: #a0a0a0;
+        }
+        
+        .input-hint {
+            font-size: 0.85rem;
+            color: var(--gray-color);
+            margin-top: 6px;
+            padding-right: 5px;
+        }
+        
+        /* Stats Preview */
+        .stats-preview {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: var(--border-radius);
+            padding: 25px;
+            margin-top: 20px;
+            border-right: 4px solid var(--info-color);
+        }
+        
+        .stats-preview h3 {
+            color: var(--info-color);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: var(--transition);
+        }
+        
+        .stat-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .stat-label {
+            font-size: 0.95rem;
+            color: var(--gray-color);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .stat-value.empty {
+            color: var(--gray-color);
+            opacity: 0.5;
+        }
+        
+        /* Button Styles */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 16px 32px;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(67, 97, 238, 0.3);
+        }
+        
+        .btn-back {
+            background-color: #6c757d;
+            color: white;
+        }
+        
+        .btn-back:hover {
+            background-color: #5a6268;
+            transform: translateY(-3px);box-shadow: 0 7px 20px rgba(108, 117, 125, 0.3);
+        }
+        
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        /* Form Tips */
+        .form-tips {
+            background-color: #e8f4fd;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            margin-top: 30px;
+            border-right: 4px solid var(--success-color);
+        }
+        
+        .form-tips h3 {
+            color: var(--success-color);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .tips-list {
+            list-style-type: none;
+        }
+        
+        .tips-list li {
+            margin-bottom: 10px;
+            padding-right: 25px;
+            position: relative;
+        }
+        
+        .tips-list li:before {
+            content: "✓";
+            position: absolute;
+            right: 0;
+            color: var(--success-color);
+            font-weight: bold;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .main-card {
+            animation: fadeIn 0.8s ease-out;
+        }
+        
+        .form-group {
+            animation: fadeIn 0.8s ease-out;
+            animation-fill-mode: both;
+        }
+        
+        .form-group:nth-child(1) { animation-delay: 0.1s; }
+        .form-group:nth-child(2) { animation-delay: 0.2s; }
+        .form-group:nth-child(3) { animation-delay: 0.3s; }
+        .form-group:nth-child(4) { animation-delay: 0.4s; }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-card {
+                padding: 25px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .button-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 15px;
+            }
+            
+            .main-card {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
+            input[type="text"] {
+                padding: 14px 45px 14px 15px;
+                font-size: 1rem;
+            }
+            
+            .stats-preview, .form-tips {
+                padding: 20px;
+            }
+        }
+        
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                color: #f1f1f1;
+            }
+            
+            .main-card {
+                background-color: #2d3748;
+                color: #f1f1f1;
+            }
+            
+            input[type="text"] {
+                background-color: #4a5568;
+                border-color: #4a5568;color: #f1f1f1;
+            }
+            
+            input[type="text"]:focus {
+                background-color: #4a5568;
+            }
+            
+            .stats-preview {
+                background: linear-gradient(135deg, #3a4558 0%, #4a5568 100%);
+            }
+            
+            .stat-item {
+                background-color: #4a5568;
+                color: #f1f1f1;
+            }
+            
+            .form-tips {
+                background-color: #3a4558;
+            }
+            
+            .btn-back {
+                background-color: #4a5568;
+            }
+        }
+        
+        /* Custom input focus animations */
+        .input-focus-effect {
+            position: relative;
+        }
+        
+        .input-focus-effect:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(to right, var(--primary-color), var(--success-color));
+            transition: var(--transition);
+            transform: translateX(-50%);
+        }
+        
+        .input-focus-effect:focus-within:after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-card">
+            <div class="header">
+                <div class="header-decoration"></div>
+                <h1><i class="fas fa-database"></i> ورود داده‌های جدید</h1>
+                <p>لطفاً اطلاعات مربوط به قیمت و تعداد محصولات را در فرم زیر وارد نمایید</p>
+            </div>
+            
+            <div class="form-container">
+                <form action="inp.php" method="GET" id="dataForm">
+                    <div class="form-grid">
+                        <div class="form-group input-focus-effect">
+                            <label for="price"><i class="fas fa-tag label-icon"></i> قیمت (تومان)</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="price" id="price" placeholder="مثال: ۲۵۰۰۰۰۰" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">قیمت محصول به تومان وارد شود</div>
+                        </div>
+                        
+                        <div class="form-group input-focus-effect">
+                            <label for="xiaomi"><i class="fas fa-mobile-alt label-icon"></i> تعداد شیائومی</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="xiaomi" id="xiaomi" placeholder="مثال: ۱۵" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-box"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">تعداد محصولات برند شیائومی</div>
+                        </div>
+                        
+                        <div class="form-group input-focus-effect">
+                            <label for="samsung"><i class="fas fa-tablet-alt label-icon"></i> تعداد سامسونگ</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="samsung" id="samsung" placeholder="مثال: ۱۰" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-box-open"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">تعداد محصولات برند سامسونگ</div>
+                        </div><div class="form-group input-focus-effect">
+                            <label for="others"><i class="fas fa-cubes label-icon"></i> سایر محصولات</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="others" id="others" placeholder="مثال: ۸" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-boxes"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">تعداد سایر محصولات</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Stats Preview -->
+                    <div class="stats-preview">
+                        <h3><i class="fas fa-chart-bar"></i> پیش‌نمایش داده‌ها</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-label">
+                                    <i class="fas fa-tag"></i> قیمت
+                                </div>
+                                <div id="price-preview" class="stat-value empty">وارد نشده</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-label">
+                                    <i class="fas fa-mobile-alt"></i> شیائومی
+                                </div>
+                                <div id="xiaomi-preview" class="stat-value empty">وارد نشده</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-label">
+                                    <i class="fas fa-tablet-alt"></i> سامسونگ
+                                </div>
+                                <div id="samsung-preview" class="stat-value empty">وارد نشده</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-label">
+                                    <i class="fas fa-cubes"></i> سایر
+                                </div>
+                                <div id="others-preview" class="stat-value empty">وارد نشده</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Form Tips -->
+                    <div class="form-tips">
+                        <h3><i class="fas fa-lightbulb"></i> نکات مهم</h3>
+                        <ul class="tips-list">
+                            <li>اطمینان حاصل کنید که تمامی فیلدها را به درستی پر کرده‌اید</li>
+                            <li>برای قیمت فقط عدد وارد نمایید (بدون کاما یا نقطه)</li>
+                            <li>برای تعداد محصولات فقط عدد صحیح وارد نمایید</li>
+                            <li>پس از تأیید صحت اطلاعات، فرم را ارسال کنید</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="button-group">
+                        <a href="index.php" class="btn btn-back">
+                            <i class="fas fa-arrow-right"></i> بازگشت به صفحه اصلی
+                        </a>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> ارسال اطلاعات
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>سیستم مدیریت فروش محصولات الکترونیکی | نسخه ۱.۰ © ۱۴۰۳</p>
+        </div>
+    </div>
+</body>
+</html>

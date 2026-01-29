@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بروزرسانی رکوردها</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --success-color: #4cc9f0;
+            --info-color: #4895ef;
+            --warning-color: #f8961e;
+            --danger-color: #f72585;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+            --gray-color: #6c757d;
+            --border-radius: 12px;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        /* Card Style */
+        .main-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 40px;
+            width: 100%;
+            margin-bottom: 30px;
+            transition: var(--transition);
+            border-top: 5px solid var(--warning-color);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .main-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .header h1 {
+            color: var(--warning-color);
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .header p {
+            color: var(--gray-color);
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header-badge {
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            background: linear-gradient(to right, var(--warning-color), #ff9e00);
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(248, 150, 30, 0.3);
+        }
+        
+        /* Form Layout */
+        .form-container {
+            margin-top: 20px;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin: 30px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            position: relative;
+        }.form-group.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: var(--dark-color);
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .label-icon {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            width: 24px;
+            text-align: center;
+        }
+        
+        .input-wrapper {
+            position: relative;
+        }
+        
+        .input-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray-color);
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 16px 50px 16px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            transition: var(--transition);
+            background-color: #f9f9f9;
+            color: var(--dark-color);
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background-color: white;
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+        }
+        
+        input[type="text"]:focus + .input-icon {
+            color: var(--primary-color);
+        }
+        
+        input[type="text"]::placeholder {
+            color: #a0a0a0;
+        }
+        
+        .input-hint {
+            font-size: 0.85rem;
+            color: var(--gray-color);
+            margin-top: 6px;
+            padding-right: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Toggle Section */
+        .toggle-section {
+            background-color: #f8f9fa;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            margin-top: 15px;
+            border-right: 4px solid var(--info-color);
+        }
+        
+        .toggle-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .toggle-title {
+            color: var(--info-color);
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .toggle-icon {
+            transition: var(--transition);
+        }
+        
+        .toggle-content {
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .toggle-content.show {
+            display: block;
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        /* Update Preview */
+        .update-preview {
+            background: linear-gradient(135deg, #fff9e6 0%, #fff0cc 100%);
+            border-radius: var(--border-radius);
+            padding: 25px;
+            margin-top: 30px;
+            border-right: 4px solid var(--warning-color);
+        }
+        
+        .update-preview h3 {
+            color: var(--warning-color);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .preview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+        
+        .preview-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);transition: var(--transition);
+        }
+        
+        .preview-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .preview-label {
+            font-size: 0.9rem;
+            color: var(--gray-color);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .preview-value {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--dark-color);
+        }
+        
+        .preview-value.empty {
+            color: #aaa;
+            font-style: italic;
+            font-weight: normal;
+        }
+        
+        /* Button Styles */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 16px 32px;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        
+        .btn-warning {
+            background: linear-gradient(to right, var(--warning-color), #ff9e00);
+            color: white;
+        }
+        
+        .btn-warning:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(248, 150, 30, 0.3);
+        }
+        
+        .btn-back {
+            background-color: #6c757d;
+            color: white;
+        }
+        
+        .btn-back:hover {
+            background-color: #5a6268;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(108, 117, 125, 0.3);
+        }
+        
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        /* Form Tips */
+        .form-tips {
+            background-color: #e8f4fd;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            margin-top: 30px;
+            border-right: 4px solid var(--info-color);
+        }
+        
+        .form-tips h3 {
+            color: var(--info-color);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .tips-list {
+            list-style-type: none;
+        }
+        
+        .tips-list li {
+            margin-bottom: 10px;
+            padding-right: 25px;
+            position: relative;
+        }
+        
+        .tips-list li:before {
+            content: "ⓘ";
+            position: absolute;
+            right: 0;
+            color: var(--info-color);
+            font-weight: bold;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: var(--gray-color);
+            font-size: 0.9rem;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .main-card {
+            animation: fadeIn 0.8s ease-out;
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 900px) {
+            .form-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {.main-card {
+                padding: 25px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .button-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .preview-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 15px;
+            }
+            
+            .main-card {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
+            input[type="text"] {
+                padding: 14px 45px 14px 15px;
+                font-size: 1rem;
+            }
+            
+            .update-preview, .form-tips, .toggle-section {
+                padding: 20px;
+            }
+            
+            .preview-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                color: #f1f1f1;
+            }
+            
+            .main-card {
+                background-color: #2d3748;
+                color: #f1f1f1;
+            }
+            
+            input[type="text"] {
+                background-color: #4a5568;
+                border-color: #4a5568;
+                color: #f1f1f1;
+            }
+            
+            input[type="text"]:focus {
+                background-color: #4a5568;
+            }
+            
+            .toggle-section {
+                background-color: #3a4558;
+            }
+            
+            .update-preview {
+                background: linear-gradient(135deg, #4a3c1e 0%, #5a4a2a 100%);
+            }
+            
+            .preview-item {
+                background-color: #4a5568;
+                color: #f1f1f1;
+            }
+            
+            .form-tips {
+                background-color: #3a4558;
+            }
+            
+            .btn-back {
+                background-color: #4a5568;
+            }
+            
+            .section-title {
+                border-bottom-color: #4a5568;
+            }
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-card">
+            <div class="header">
+                <div class="header-badge">فرم بروزرسانی</div>
+                <h1><i class="fas fa-sync-alt"></i> بروزرسانی رکوردها</h1>
+                <p>لطفاً شرط انتخاب رکوردها و مقادیر جدید برای بروزرسانی را وارد نمایید</p>
+            </div>
+            
+            <div class="form-container">
+                <form action="up.php" method="GET" id="updateForm">
+                    <!-- Condition Section -->
+                    <div class="section-title">
+                        <i class="fas fa-filter"></i> شرط انتخاب رکوردها
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="condition"><i class="fas fa-code label-icon"></i> شرط WHERE</label>
+                        <div class="input-wrapper">
+                            <input type="text" name="if" id="condition" placeholder='مثال: id = "5" یا status = "active"' required autocomplete="off">
+                            <div class="input-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="input-hint">
+                            <i class="fas fa-info-circle"></i> شرط باید به فرمت SQL WHERE clause نوشته شود. مقدار رشته‌ای باید در <code>" "</code> قرار گیرد.
+                        </div>
+                    </div>
+                    
+                    <!-- Toggle for condition examples -->
+                    <div class="toggle-section">
+                        <div class="toggle-header" id="toggleExamples">
+                            <div class="toggle-title">
+                                <i class="fas fa-lightbulb"></i> مثال‌هایی از شرط‌های مختلف
+                            </div>
+                            <div class="toggle-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="toggle-content" id="examplesContent">
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 15px;">
+                                <div style="background: white; padding: 15px; border-radius: 8px;">
+                                    <div style="font-weight: 600; color: var(--primary-color); margin-bottom: 5px;">بروزرسانی یک رکورد خاص</div>
+                                    <div style="font-family: monospace; background: #f8f9fa; padding: 8px; border-radius: 5px; direction: ltr;">id = "10"</div>
+                                </div>
+                                <div style="background: white; padding: 15px; border-radius: 8px;">
+                                    <div style="font-weight: 600; color: var(--primary-color); margin-bottom: 5px;">بروزرسالی بر اساس وضعیت</div>
+                                    <div style="font-family: monospace; background: #f8f9fa; padding: 8px; border-radius: 5px; direction: ltr;">status = "inactive"</div>
+                                </div>
+                                <div style="background: white; padding: 15px; border-radius: 8px;">
+                                    <div style="font-weight: 600; color: var(--primary-color); margin-bottom: 5px;">بروزرسانی با چند شرط</div>
+                                    <div style="font-family: monospace; background: #f8f9fa; padding: 8px; border-radius: 5px; direction: ltr;">price > "1000" AND category = "electronics"</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Update Values Section --><div class="section-title">
+                        <i class="fas fa-edit"></i> مقادیر جدید برای بروزرسانی
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="price"><i class="fas fa-tag label-icon"></i> قیمت جدید</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="price" id="price" placeholder="مثال: ۳۰۰۰۰۰۰" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">قیمت جدید به تومان (اختیاری)</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="xiaomi"><i class="fas fa-mobile-alt label-icon"></i> تعداد شیائومی</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="xiaomi" id="xiaomi" placeholder="مثال: ۲۰" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-box"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">تعداد جدید (اختیاری)</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="samsung"><i class="fas fa-tablet-alt label-icon"></i> تعداد سامسونگ</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="samsung" id="samsung" placeholder="مثال: ۱۵" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-box-open"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">تعداد جدید (اختیاری)</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="others"><i class="fas fa-cubes label-icon"></i> سایر محصولات</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="others" id="others" placeholder="مثال: ۱۲" autocomplete="off">
+                                <div class="input-icon">
+                                    <i class="fas fa-boxes"></i>
+                                </div>
+                            </div>
+                            <div class="input-hint">تعداد جدید (اختیاری)</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Update Preview -->
+                    <div class="update-preview">
+                        <h3><i class="fas fa-eye"></i> پیش‌نمایش بروزرسانی</h3>
+                        <div class="preview-grid">
+                            <div class="preview-item">
+                                <div class="preview-label">
+                                    <i class="fas fa-filter"></i> شرط انتخاب
+                                </div>
+                                <div id="condition-preview" class="preview-value empty">وارد نشده</div>
+                            </div>
+                            <div class="preview-item">
+                                <div class="preview-label">
+                                    <i class="fas fa-tag"></i> قیمت جدید
+                                </div>
+                                <div id="price-preview" class="preview-value empty">بدون تغییر</div></div>
+                            <div class="preview-item">
+                                <div class="preview-label">
+                                    <i class="fas fa-mobile-alt"></i> شیائومی جدید
+                                </div>
+                                <div id="xiaomi-preview" class="preview-value empty">بدون تغییر</div>
+                            </div>
+                            <div class="preview-item">
+                                <div class="preview-label">
+                                    <i class="fas fa-tablet-alt"></i> سامسونگ جدید
+                                </div>
+                                <div id="samsung-preview" class="preview-value empty">بدون تغییر</div>
+                            </div>
+                            <div class="preview-item">
+                                <div class="preview-label">
+                                    <i class="fas fa-cubes"></i> سایر محصولات
+                                </div>
+                                <div id="others-preview" class="preview-value empty">بدون تغییر</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Form Tips -->
+                    <div class="form-tips">
+                        <h3><i class="fas fa-exclamation-triangle"></i> نکات مهم بروزرسانی</h3>
+                        <ul class="tips-list">
+                            <li>فقط رکوردهایی که با شرط WHERE مطابقت دارند بروزرسانی خواهند شد</li>
+                            <li>فیلدهایی که خالی رها می‌شوند، بروزرسانی نخواهند شد</li>
+                            <li>این عمل قابل بازگشت است اما با احتیاط انجام شود</li>
+                            <li>قبل از ارسال، شرط انتخاب را با دقت بررسی کنید</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="button-group">
+                        <a href="index.php" class="btn btn-back">
+                            <i class="fas fa-arrow-right"></i> بازگشت به صفحه اصلی
+                        </a>
+                        
+                        <button type="submit" class="btn btn-warning pulse-animation">
+                            <i class="fas fa-sync-alt"></i> بروزرسانی رکوردها
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>سیستم مدیریت پایگاه داده | فرم بروزرسانی رکوردها © ۱۴۰۳</p>
+        </div>
+    </div>
+
+                                    </body>
+</html>
